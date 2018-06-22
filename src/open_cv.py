@@ -26,3 +26,19 @@ class OpenCV:
 
     def img_write(self, path, img):
         cv.imwrite(path, img)
+
+    def img_equalize_histogram(self, img):
+        gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+        equ = cv.equalizeHist(gray)
+
+        return equ
+
+    def img_color2gray(self, img):
+        gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+
+        return gray
+
+    def img_read(self, path):
+        img = cv.imread(path)
+
+        return img

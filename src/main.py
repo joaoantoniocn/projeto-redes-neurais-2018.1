@@ -1,11 +1,17 @@
 
 from open_cv import OpenCV
+import numpy as np
 
 
 cv = OpenCV()
 
-img, face = cv.get_face('../bases/1.png')
-cv.img_show(img)
-cv.img_show(face)
-cv.img_write('../bases/result.png', face)
+img = cv.img_read('../bases/1.png')
+equ = cv.img_equalize_histogram(img)
+
+img = cv.img_color2gray(img)
+
+res = np.hstack((img,equ)) #stacking images side-by-side
+cv.img_show(res)
+
+cv.img_write('../bases/equalize.png', res)
 
