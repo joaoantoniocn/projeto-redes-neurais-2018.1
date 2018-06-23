@@ -1,17 +1,20 @@
 
-from open_cv import OpenCV
+from parser import Parser
 import numpy as np
 
 
-cv = OpenCV()
 
-img = cv.img_read('../bases/1.png')
-equ = cv.img_equalize_histogram(img)
+parser = Parser()
 
-img = cv.img_color2gray(img)
+base, labels, labels_nome = parser.get_base('../bases/faces95/')
+lda = parser.lda()
 
-res = np.hstack((img,equ)) #stacking images side-by-side
-cv.img_show(res)
+#equ = parser.img_equalize_histogram(img)
 
-cv.img_write('../bases/equalize.png', res)
+#img = parser.img_color2gray(img)
+
+#res = np.hstack((img,equ)) #stacking images side-by-side
+#parser.img_show(res)
+
+#parser.img_write('../bases/equalize.png', res)
 
