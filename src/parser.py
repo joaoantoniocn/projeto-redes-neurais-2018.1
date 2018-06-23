@@ -1,6 +1,7 @@
 import cv2 as cv
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from os import listdir
+import numpy as np
 
 # Parser para Pré Processamento dos dados
 class Parser:
@@ -45,10 +46,17 @@ class Parser:
 
         return img
 
-    def lda(self):
-        aux = LinearDiscriminantAnalysis()
+    def matrix2column(self, m):
+        x, y = m.shape
 
-        return aux
+        return np.reshape(m, (1, x*y))[0]
+
+
+    def lda(self, base, labels):
+        aux = LinearDiscriminantAnalysis()
+        aux.fit(base, labels)
+
+        return aux.transform(base)
 
     def get_base(self, path):
         # O diretório passado em 'path' deve conter apenas pastas
@@ -71,8 +79,8 @@ class Parser:
                 img = cv.imread(path + classes[classe] + str('/') + amostras[amostra])
                 img = self.img_color2gray(img)
 
-                base.append(img)
+                base.append(self.matrix2column(img))
                 labels.append(classe)
                 labels_nome.append(classes[classe])
 
-        return base, labels, labels_nome
+        return np.asarray(base), labels, labels_nome

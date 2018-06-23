@@ -7,7 +7,7 @@ import numpy as np
 parser = Parser()
 
 base, labels, labels_nome = parser.get_base('../bases/faces95/')
-lda = parser.lda()
+base_lda = parser.lda(base, labels)
 
 #equ = parser.img_equalize_histogram(img)
 
