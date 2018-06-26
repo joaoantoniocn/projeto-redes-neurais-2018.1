@@ -58,11 +58,77 @@ class Parser:
 
         return aux.transform(base)
 
+
+    def ordena(self, autovalores, autovetores):
+
+        autovalores_ordenados = autovalores
+        autovetores_ordenados = autovetores
+
+        for i in range(len(autovalores)):
+
+            for j in range(i, len(autovalores)):
+
+                if (autovalores_ordenados[i] < autovalores_ordenados[j]):
+                    autovalores_temp = autovalores_ordenados[i]
+                    autovetores_temp = autovetores_ordenados[:, i]
+
+                    autovalores_ordenados[i] = autovalores_ordenados[j]
+                    autovetores_ordenados[:, i] = autovetores_ordenados[:, j]
+
+                    autovalores_ordenados[j] = autovalores_temp
+                    autovetores_ordenados[:, j] = autovetores_temp
+
+        return autovalores_ordenados, autovetores_ordenados
+
+    def eigenfaces_fit(self, base):
+        # base[amostras, características]
+        media = np.zeros(len(base[0]))
+
+
+
+        # media
+        for i in range(len(media)):
+            media[i] = np.mean(base[:, i])
+
+        # matrix de covariancia
+        baseT = base - media
+        baseT = baseT.T # (cada coluna vira uma amostra)
+        covariancia = np.matmul(baseT.T, baseT)
+        covariancia = covariancia / (len(base)-1)
+
+        # autovalores e autovetores
+        autovalores, autovetores = np.linalg.eig(covariancia)
+
+        # ordenando autovetores pelos maiores autovalores
+        autovalores, autovetores = self.ordena(autovalores, autovetores)
+
+        # expande autovetores
+        autovetores_expandidos = np.zeros([len(baseT), len(base)])
+        for i in range(len(autovalores)):
+            e = autovetores[:, i]
+            e = np.matmul(baseT, e)
+            e = e / np.sqrt(len(autovalores) * autovalores[i])
+            autovetores_expandidos[:, i] = e
+
+        return autovalores, autovetores_expandidos, media
+
+    def eigenfaces_transform(self, img, autovetores, media_treino, numero_features):
+        # img é um vetor coluna que representa a amostra a ser projetada no Eigenfaces
+
+        img_media = img - media_treino
+        E = autovetores[:, 0:numero_features]
+
+        return np.matmul(E.T, img_media)
+
     def get_base(self, path):
         # O diretório passado em 'path' deve conter apenas pastas
         # onde cada uma das pastas corresponde a uma classe
         # dentro da pasta de cada classe deve ter n arquivos de imagem
         # cada imagem é uma amostra da base de dados
+        # ---------------
+        # Saída:
+        # base[amostras, características]
+
 
         base = []
         labels = []

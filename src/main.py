@@ -7,7 +7,8 @@ import numpy as np
 parser = Parser()
 
 base, labels, labels_nome = parser.get_base('../bases/faces95/')
-base_lda = parser.lda(base, labels)
+autova, autove, media_treino = parser.eigenfaces_fit(base)
+#base_lda = parser.lda(base, labels)
 
 #equ = parser.img_equalize_histogram(img)
 
