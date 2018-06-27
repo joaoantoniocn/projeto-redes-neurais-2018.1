@@ -80,8 +80,11 @@ class Parser:
 
         return autovalores_ordenados, autovetores_ordenados
 
-    def eigenfaces_fit(self, base):
+    def eigenfaces_fit(self, base, r):
         # base[amostras, características]
+        # r = parametrô fracionario, quando r = 1 temos eigenfaces normal
+        # quando 0 < r < 1, temos eigenfaces fracionário
+
         media = np.zeros(len(base[0]))
 
 
@@ -91,10 +94,11 @@ class Parser:
             media[i] = np.mean(base[:, i])
 
         # matrix de covariancia
-        baseT = base - media
+        media = np.power(media, r)          # media fracionária
+        baseT = np.power(base, r) - media   # base fracionária - media fracionária
         baseT = baseT.T # (cada coluna vira uma amostra)
         covariancia = np.matmul(baseT.T, baseT)
-        covariancia = covariancia / (len(base)-1)
+        covariancia = covariancia / len(base)
 
         # autovalores e autovetores
         autovalores, autovetores = np.linalg.eig(covariancia)
@@ -112,10 +116,15 @@ class Parser:
 
         return autovalores, autovetores_expandidos, media
 
-    def eigenfaces_transform(self, img, autovetores, media_treino, numero_features):
+    def eigenfaces_transform(self, img, autovetores, media_treino, numero_features, r):
         # img é um vetor coluna que representa a amostra a ser projetada no Eigenfaces
+        # numero_features indica em quantas dimensões queremos projetar a amostra
+        # media_treino já vem fracionária se o eigenfaces foi treinado fracionário
+        # r = parametro fracionário, serve para transformar a amostra em fracionária
+        # se r = 1, temos eigenfaces normal
+        # se 0 < r < 1, temos eigenfaces fracionário
 
-        img_media = img - media_treino
+        img_media = np.power(img, r) - media_treino
         E = autovetores[:, 0:numero_features]
 
         return np.matmul(E.T, img_media)
