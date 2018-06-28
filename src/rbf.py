@@ -72,6 +72,7 @@ class RBF:
                 self.pesos[unidade_escondida][unidade_saida] = self.pesos[unidade_escondida][unidade_saida] + self.taxa_aprendizagem * self.erro[unidade_saida] * self.entrada[0][unidade_escondida]
 
     def calcula_sse(self, base, labels_binario):
+        # calcula a soma do erro quadratico na base teste
         result = 0
 
         for i in range(len(base)):
