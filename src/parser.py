@@ -163,10 +163,25 @@ class Parser:
         return np.asarray(base), labels, labels_nome, labels_binario
 
     def binariza(self, labels, qtd_classes):
-
+        # transforma numero decimal em um vetor binario
+        # Ex: 1 = 00001, 2 = 00010, 3 = 00011, 4 = 00100, 5 = 00101
         result = []
 
         for i in range(len(labels)):
             result.append(np.array(list(np.binary_repr(labels[i], qtd_classes)), dtype=int))
+
+        return result
+
+    def binariza2(self, labels, qtd_classes):
+        # transforma um numero decimal em um vetor binario
+        # onde só a posição do número será ativada
+        # Ex: 2 = 00010, 3 = 00100, 4 = 01000, 5 = 10000
+
+        result = []
+
+        for i in range(len(labels)):
+            aux = np.zeros(qtd_classes)
+            aux[labels[i]] = 1
+            result.append(aux)
 
         return result
