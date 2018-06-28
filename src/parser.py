@@ -142,6 +142,7 @@ class Parser:
         base = []
         labels = []
         labels_nome = []
+        labels_binario = []
 
         classes = listdir(path)
 
@@ -157,5 +158,6 @@ class Parser:
                 base.append(self.matrix2column(img))
                 labels.append(classe)
                 labels_nome.append(classes[classe])
+                labels_binario.append(np.binary_repr(classe, len(classes)))
 
-        return np.asarray(base), labels, labels_nome
+        return np.asarray(base), labels, labels_nome, labels_binario
