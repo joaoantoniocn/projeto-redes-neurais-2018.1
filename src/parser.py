@@ -158,6 +158,15 @@ class Parser:
                 base.append(self.matrix2column(img))
                 labels.append(classe)
                 labels_nome.append(classes[classe])
-                labels_binario.append(np.binary_repr(classe, len(classes)))
+                labels_binario.append(np.array(list(np.binary_repr(classe, len(classes))), dtype=int))
 
         return np.asarray(base), labels, labels_nome, labels_binario
+
+    def binariza(self, labels, qtd_classes):
+
+        result = []
+
+        for i in range(len(labels)):
+            result.append(np.array(list(np.binary_repr(labels[i], qtd_classes)), dtype=int))
+
+        return result
