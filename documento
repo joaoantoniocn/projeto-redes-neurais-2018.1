@@ -1,7 +1,13 @@
--Base de dados
+- Base de dados
 	- Labels binarizados, onde só um bit fica ativo para marcar a classe correta
+	- as bases que já estavam centradas na face não passaram pelo algorítmos de viola jones
+		- a unica base que precisou do viola jones foi a faces95
 
-
+---
+- Pré Processamento
+    - Eigenfaces
+        - projetado com 90% de representatividade
+	
 ----
 - RBF
 	- SSE = Soma do Erro Quadrado

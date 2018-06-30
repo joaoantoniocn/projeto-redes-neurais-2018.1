@@ -5,6 +5,7 @@ import numpy as np
 from rbf import RBF
 from sklearn.datasets import load_iris
 from sklearn.datasets import load_wine
+from cross_fold_validation import CrossFoldValidation
 
 
 parser = Parser()
@@ -21,8 +22,16 @@ rbf = RBF([10, 10], taxa_aprendizagem, epocas)
 base, labels, labels_nome, labels_binario = parser.get_base('../bases/test/')
 #rbf.fit(base, labels_binario)
 
-autova, autove, media_treino = parser.eigenfaces_fit(base, 1)
-base_eig = parser.eigenfaces_transform_base(base, autove, autova, media_treino, 1, 0.9)
+# --- Separa base de dados em folders
+cross = CrossFoldValidation(base, labels, 10)
+folders = cross.gerar_folders([])
+treino, teste, validacao, label_treino, label_teste, label_validacao = cross.separa_treino_teste(folders, 1, [2, 3])
+
+# --- projetando base com eigenfaces
+#autova, autove, media_treino = parser.eigenfaces_fit(base, 1)
+#base_eig = parser.eigenfaces_transform_base(base, autove, autova, media_treino, 1, 0.9)
+# ---
+
 #base_lda = parser.lda(base, labels)
 
 
