@@ -41,11 +41,11 @@ class RBF:
         # iniciando Erro
         self.erro = np.zeros(camadas[1])
 
-    def fit(self, base, labels_binario):
+    def fit(self, treino, validacao, labels_treino, labels_validacao):
 
         # definindo centros
         kmeans = KMeans(n_clusters = self.camadas[0], random_state=0)
-        kmeans.fit(base)
+        kmeans.fit(treino)
         self.centroides = kmeans.cluster_centers_
 
         # definindo sigma
@@ -57,13 +57,13 @@ class RBF:
 
         # passando por todas as amostras de treinamento
         for epocas in range(self.epoca_treinamento):
-            for i in range(len(base)):
-                self.erro = labels_binario[i] - self.predict(base[i])
+            for i in range(len(treino)):
+                self.erro = labels_treino[i] - self.predict(treino[i])
 
                 if( np.sum(self.erro) != 0):
                     self.atualiza_pesos()
 
-            print(self.calcula_sse(base, labels_binario))
+            print(self.calcula_sse(validacao, labels_validacao))
 
     def atualiza_pesos(self):
 
