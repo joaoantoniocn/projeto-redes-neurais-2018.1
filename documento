@@ -2,6 +2,9 @@
 	- Labels binarizados, onde só um bit fica ativo para marcar a classe correta
 	- as bases que já estavam centradas na face não passaram pelo algorítmos de viola jones
 		- a unica base que precisou do viola jones foi a faces95
+	- foi normalizada após a aplicação do PCA
+	    - todos os conjuntos (treino, teste e validação) foram normalizados usando máximos e minimos da base de treinamento
+    - 10-fold cross validation
 
 ---
 - Pré Processamento
@@ -19,3 +22,5 @@
 	- Atualização dos pesos = w[unidade_escondida][unidade_saida] = w[unidade_escondida][unidade_saida] + taxa_aprendizagem * erro[unidade] * saida[unidade_escondida]
 	- erro = labels_binario[i] - predict(base[i])
 	- Inicialização dos pesos é feita aleatória
+    - Taxa de aprendizagem decai a cada (numero_total_epocas / 4) epocas
+        - nova taxa de aprendizagem = taxa_aprendizagem / 10

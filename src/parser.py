@@ -8,6 +8,18 @@ import time
 # Parser para Pré Processamento dos dados
 class Parser:
 
+    log = []
+
+    def __init__(self):
+
+        tempo = time.localtime()
+
+        tempo_str = str(tempo[2]) + "-" + str(tempo[1]) + "-" + str(tempo[0]) + "-" + str(tempo[3]) + ":" + str(
+            tempo[4]) + ":" + str(tempo[5])
+
+        if (self.__class__.log == []):
+            self.__class__.log = open("../log/" + tempo_str + ".txt", 'w')
+
     def get_face(self, path):
 
         face_cascade = cv.CascadeClassifier('../haar/haarcascade_frontalface_default.xml')
@@ -265,3 +277,7 @@ class Parser:
         tempo_str = str(tempo[2]) + "/" + str(tempo[1]) + "/" + str(tempo[0]) + "-" + str(tempo[3]) + ":" + str(tempo[4]) + ":" +str(tempo[5])
 
         print(tempo_str + " # " + texto)
+        self.__class__.log.write(tempo_str + " # " + texto + "\n")
+
+    def close_log(self):
+        self.__class__.log.close()

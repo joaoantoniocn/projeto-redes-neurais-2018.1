@@ -3,108 +3,110 @@
   <component name="ChangeListManager">
     <list default="true" id="743c4d3f-900a-4df6-88ba-d41dfee10cbc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s1/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s10/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s2/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s3/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s4/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s5/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s6/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s7/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s8/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bases/test/s9/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s1/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s1/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s10/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s10/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s2/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s2/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s3/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s3/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s4/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s4/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s5/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s5/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s6/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s6/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s7/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s7/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s8/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s8/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bases/test/s9/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bases/test/s9/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documento" beforeDir="false" afterPath="$PROJECT_DIR$/documento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rbf.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rbf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,8 +120,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="242">
+              <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
               <folding>
                 <element signature="e#1#26#0" expanded="true" />
               </folding>
@@ -127,11 +129,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rbf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rbf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="documento" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documento">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+            <state relative-caret-position="4155">
+              <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -157,7 +180,9 @@
         <option value="$PROJECT_DIR$/src/viola_jones.py" />
         <option value="$PROJECT_DIR$/src/open_cv.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/cross_fold_validation.py" />
         <option value="$PROJECT_DIR$/src/rbf.py" />
+        <option value="$PROJECT_DIR$/documento" />
         <option value="$PROJECT_DIR$/src/parser.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
       </list>
@@ -194,6 +219,11 @@
               <item name="projeto-redes-neurais-2018.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="projeto-redes-neurais-2018.1" type="462c0819:PsiDirectoryNode" />
               <item name="haar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto-redes-neurais-2018.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto-redes-neurais-2018.1" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projeto-redes-neurais-2018.1" type="b2602c69:ProjectViewProjectNode" />
@@ -286,13 +316,13 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.180131" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.180131" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948583" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948583" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32948583" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948583" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -314,6 +344,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="183" column="53" selection-start-line="183" selection-start-column="53" selection-end-line="183" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -381,30 +431,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rbf.py">
+    <entry file="file://$PROJECT_DIR$/src/cross_fold_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-718">
-          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        <state relative-caret-position="482">
+          <caret line="114" column="50" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="50" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/documento">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/teste.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/30-6-2018-17:12:54.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/30-6-2018-17:11:0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+        <state relative-caret-position="4155">
+          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
+    <entry file="file://$PROJECT_DIR$/src/rbf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/30-6-2018-17:15:33.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
           <folding>
             <element signature="e#1#26#0" expanded="true" />
           </folding>
