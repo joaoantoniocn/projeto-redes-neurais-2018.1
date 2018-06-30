@@ -89,10 +89,8 @@ class Parser:
         # base[amostras, características]
         # r = parametrô fracionario, quando r = 1 temos eigenfaces normal
         # quando 0 < r < 1, temos eigenfaces fracionário
-
+        # representatividade = vai indicar quantos % de representatividade meus autovetores devem ter, o número de autovetores serão escolhidos de forma que a soma de seus autovalores  darão 'representatividade' % da soma de todos os autovalores
         media = np.zeros(len(base[0]))
-
-
 
         # media
         for i in range(len(media)):
@@ -121,7 +119,7 @@ class Parser:
 
         return autovalores, autovetores_expandidos, media
 
-    def eigenfaces_transform(self, img, autovetores, media_treino, numero_features, r):
+    def eigenfaces_transform(self, img, autovetores, autovalores, media_treino, r, representatividade):
         # img é um vetor coluna que representa a amostra a ser projetada no Eigenfaces
         # numero_features indica em quantas dimensões queremos projetar a amostra
         # media_treino já vem fracionária se o eigenfaces foi treinado fracionário
@@ -129,10 +127,26 @@ class Parser:
         # se r = 1, temos eigenfaces normal
         # se 0 < r < 1, temos eigenfaces fracionário
 
+        repr = 0
+        i = 1
+        while (repr < representatividade):
+            repr = sum(autovalores[:i]) / sum(autovalores)
+            i = i + 1
+
         img_media = np.power(img, r) - media_treino
-        E = autovetores[:, 0:numero_features]
+        E = autovetores[:, 0:i]
 
         return np.matmul(E.T, img_media)
+
+    def eigenfaces_transform_base(self, base, autovetores, autovalores, media_treino, r, representatividade):
+        # projeta a base toda de uma vez
+
+        base_eig = []
+
+        for i in range(len(base)):
+            base_eig.append(np.ndarray.tolist(self.eigenfaces_transform(base[i], autovetores, autovalores, media_treino, r, representatividade)))
+
+        return np.asarray(base_eig)
 
     def get_base(self, path):
         # O diretório passado em 'path' deve conter apenas pastas
