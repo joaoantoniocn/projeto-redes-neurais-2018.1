@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.cluster import KMeans
-from parser import Parser as parser
+from parser import Parser
 
 
 class RBF:
@@ -61,11 +61,17 @@ class RBF:
             for i in range(len(treino)):
                 self.erro = labels_treino[i] - self.predict(treino[i])
 
+                # se classificou errado atualiza os pesos
                 if( np.sum(self.erro) != 0):
                     self.atualiza_pesos()
 
+                # a cada 25% das epocas rodadas, diminui a taxa de aprendizagem
+                if((epocas%(self.epoca_treinamento/4)) == 0):
+                    self.taxa_aprendizagem = self.taxa_aprendizagem / 10
+                    Parser().print("Taxa de aprendizagem reduzida para :" + str(self.taxa_aprendizagem))
+
             if ((epocas%100) == 0):
-                parser.print("Epoca: " + str(epocas) + "   -   Acerto no treino: " + str(round(self.calcula_taxa_acerto(treino, labels_treino), 3)) + "   -   Acerto na validação: " + str(round(self.calcula_taxa_acerto(validacao, labels_validacao), 3)))
+                Parser().print("Epoca: " + str(epocas) + "   -   Acerto no treino: " + str(round(self.calcula_taxa_acerto(treino, labels_treino), 4)) + "   -   Acerto na validação: " + str(round(self.calcula_taxa_acerto(validacao, labels_validacao), 4)))
 
     def atualiza_pesos(self):
 
