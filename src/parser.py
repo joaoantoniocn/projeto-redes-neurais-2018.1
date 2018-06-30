@@ -3,6 +3,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from os import listdir
 import numpy as np
 import os
+import time
 
 # Parser para Pré Processamento dos dados
 class Parser:
@@ -178,7 +179,7 @@ class Parser:
                 labels.append(classe)
                 labels_nome.append(classes[classe])
 
-        labels_binario = self.binariza2(labels, len(classes))
+        labels_binario = self.binariza2(labels)
 
         return np.asarray(base), labels, labels_nome, labels_binario
 
@@ -219,7 +220,7 @@ class Parser:
 
         return result
 
-    def binariza2(self, labels, qtd_classes):
+    def binariza2(self, labels):
         # transforma um numero decimal em um vetor binario
         # onde só a posição do número será ativada
         # Ex: 2 = 00010, 3 = 00100, 4 = 01000, 5 = 10000
@@ -227,8 +228,40 @@ class Parser:
         result = []
 
         for i in range(len(labels)):
-            aux = np.zeros(qtd_classes)
+            aux = np.zeros(len(set(labels)))
             aux[labels[i]] = 1
             result.append(aux)
 
         return result
+
+    def normaliza(self, treino, teste, validacao):
+        maximos = []
+        minimos = []
+
+        for i in range(len(treino[0])):
+            maximos.append(max(treino[:, i]))
+            minimos.append(min(treino[:, i]))
+
+        for i in range(len(treino)):
+
+            for j in range(len(treino[0])):
+                treino[i, j] = (treino[i, j] - minimos[j]) / (maximos[j] - minimos[j])
+
+        for i in range(len(teste)):
+
+            for j in range(len(teste[0])):
+                teste[i, j] = (teste[i, j] - minimos[j]) / (maximos[j] - minimos[j])
+
+        for i in range(len(validacao)):
+
+            for j in range(len(validacao[0])):
+                validacao[i, j] = (validacao[i, j] - minimos[j]) / (maximos[j] - minimos[j])
+
+        return treino, teste, validacao
+
+    def print(self, texto):
+        tempo = time.localtime()
+
+        tempo_str = str(tempo[2]) + "/" + str(tempo[1]) + "/" + str(tempo[0]) + "-" + str(tempo[3]) + ":" + str(tempo[4]) + ":" +str(tempo[5])
+
+        print(tempo_str + " # " + texto)

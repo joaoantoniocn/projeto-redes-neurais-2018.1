@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.cluster import KMeans
+from parser import Parser as parser
 
 
 class RBF:
@@ -63,7 +64,8 @@ class RBF:
                 if( np.sum(self.erro) != 0):
                     self.atualiza_pesos()
 
-            print(self.calcula_sse(validacao, labels_validacao))
+            if ((epocas%100) == 0):
+                parser.print("Epoca: " + str(epocas) + "   -   Acerto no treino: " + str(round(self.calcula_taxa_acerto(treino, labels_treino), 3)) + "   -   Acerto na validação: " + str(round(self.calcula_taxa_acerto(validacao, labels_validacao), 3)))
 
     def atualiza_pesos(self):
 
@@ -81,6 +83,18 @@ class RBF:
 
         self.sse = result
         return result
+
+    def calcula_taxa_acerto(self, base, labels_binario):
+        taxa_acerto = 0
+
+        for i in range(len(base)):
+            if(np.sum(labels_binario[i] - self.predict(base[i])) == 0):
+                taxa_acerto = taxa_acerto + 1
+
+        taxa_acerto = taxa_acerto / len(base)
+
+        return taxa_acerto
+
     def calcula_sigma(self):
         # definindo sigma [distancia media entre os centros mais próximos
         dist_sum = 0
