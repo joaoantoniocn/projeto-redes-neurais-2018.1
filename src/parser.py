@@ -2,6 +2,7 @@ import cv2 as cv
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from os import listdir
 import numpy as np
+import os
 
 # Parser para Pré Processamento dos dados
 class Parser:
@@ -11,9 +12,10 @@ class Parser:
         face_cascade = cv.CascadeClassifier('../haar/haarcascade_frontalface_default.xml')
         img = cv.imread(path)
         img2 = cv.imread(path)
-        gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+        gray = self.img_color2gray(img)
 
         faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+        img_face = []
         for (x, y, w, h) in faces:
             cv.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 1)
             #roi_gray = gray[y:y + h, x:x + w]
@@ -31,13 +33,16 @@ class Parser:
         cv.imwrite(path, img)
 
     def img_equalize_histogram(self, img):
-        gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+
+        gray = self.img_color2gray(img)
         equ = cv.equalizeHist(gray)
 
         return equ
 
     def img_color2gray(self, img):
-        gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+        gray = img
+        if (len(img.shape) == 3):
+            gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
         return gray
 
@@ -162,6 +167,33 @@ class Parser:
         labels_binario = self.binariza2(labels, len(classes))
 
         return np.asarray(base), labels, labels_nome, labels_binario
+
+    def base2face(self, path_base, path_faces):
+        # extrai as faces da base de dados indicada pelo 'path_base' e grava elas no diretório 'path_faces'
+        # além de extrair as faces das imagens, essa função também equaliza o histograma de cada imagem da face
+        # o resultado desse método é uma nova base de dados contendo apenas faces e com histograma equalizado
+
+        classes = listdir(path_base)
+
+        for classe in range(len(classes)):
+            amostras = listdir(path_base + classes[classe] + str('/'))
+
+            for amostra in range(len(amostras)):
+                path_base_compl = path_base + classes[classe] + str('/') + amostras[amostra]
+                path_faces_compl = path_faces + classes[classe] + str('/') + amostras[amostra]
+                directory = path_faces + classes[classe] + str('/')
+
+                img = self.get_face(path_base_compl)
+
+                if not os.path.exists(directory):
+                    os.makedirs(directory)
+
+                #img = self.img_equalize_histogram(img)
+                #self.img_write(path_faces_compl, img)
+                if(img[1] != []):
+                    img_face = self.img_equalize_histogram(img[1])
+                    self.img_write(path_faces_compl, img_face)
+        print(path_base + " complete")
 
     def binariza(self, labels, qtd_classes):
         # transforma numero decimal em um vetor binario

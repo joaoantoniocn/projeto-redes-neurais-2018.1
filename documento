@@ -1,0 +1,15 @@
+-Base de dados
+	- Labels binarizados, onde só um bit fica ativo para marcar a classe correta
+
+
+----
+- RBF
+	- SSE = Soma do Erro Quadrado
+	- Sigma = distância média entre os centros mais próximos
+	- Função de ativação 
+		- Camada escondida = gaussiana = exp(- (x - centroide)^2 / (2 * desvio^2)) | usado distância euclidiana
+		- Na camada de saída = sum(w_i * x_i)		
+		- Resultado final da rede = 1 se x > 0; 0 caso contrário
+	- Atualização dos pesos = w[unidade_escondida][unidade_saida] = w[unidade_escondida][unidade_saida] + taxa_aprendizagem * erro[unidade] * saida[unidade_escondida]
+	- erro = labels_binario[i] - predict(base[i])
+	- Inicialização dos pesos é feita aleatória
