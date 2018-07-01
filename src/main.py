@@ -11,6 +11,41 @@ from cross_fold_validation import CrossFoldValidation
 parser = Parser()
 
 
+def separa_treino_teste(folders, i):
+    parser.print("Separando a base de dados em treino, teste e validação")
+    indice_1 = (i + 1) % len(folders)
+    indice_2 = (i + 2) % len(folders)
+    indice_validacao = [indice_1, indice_2]
+    treino, teste, validacao, label_treino, label_teste, label_validacao = cross.separa_treino_teste(folders, i,
+                                                                                                     indice_validacao)
+    parser.print("Base de dados separada!")
+
+    return treino, teste, validacao, label_treino, label_teste, label_validacao
+
+def projeta_eigenfaces(treino, validacao, teste, r):
+    parser.print("Projetando eigenfaces...")
+    #r = 1  # parametro fracionário
+    parser.print("r = " + str(r))
+    representatividade = 0.9  # representatividade da projeção
+    parser.print("Representatividade: " + str(representatividade))
+
+    autova, autove, media_treino = parser.eigenfaces_fit(treino, r)
+
+    treino_eig = parser.eigenfaces_transform_base(treino, autove, autova, media_treino, r, representatividade)
+    parser.print("Base de treino projetada!")
+
+    validacao_eig = parser.eigenfaces_transform_base(validacao, autove, autova, media_treino, r, representatividade)
+    parser.print("Base de validacao projetada!")
+
+    teste_eig = parser.eigenfaces_transform_base(teste, autove, autova, media_treino, r, representatividade)
+    parser.print("Base de teste projetada!")
+
+    parser.print("Dimensão da base de dados original:" + str(treino.shape))
+    parser.print("Dimensão da base de dados projetada:" + str(treino_eig.shape))
+    parser.print("Base de dados projetada!")
+
+    return treino_eig, validacao_eig, teste_eig
+
 # ----- pré processamento ---
 # pegando face e equalizando histograma
 #parser.base2face('../bases/faces95/', '../bases/faces95_faces/')
@@ -22,12 +57,13 @@ path = '../bases/CroppedYale_faces/'
 parser.print(path)
 base, labels, labels_nome, labels_binario = parser.get_base(path)
 parser.print("Base de dados carregada!")
+parser.print(path)
 # -----
 
 # --------------------- Cria RBF
 parser.print("Instanciando RBF...")
-taxa_aprendizagem = 0.1
-epocas = 1000
+taxa_aprendizagem = 1
+epocas = 2004
 camadas = [len(set(labels)), len(set(labels))]
 rbf = RBF(camadas, taxa_aprendizagem, epocas)
 parser.print("Camadas: " + str(camadas))
@@ -37,17 +73,19 @@ parser.print("RBF instanciada!")
 # -----
 
 # ----- Separa base de dados em folders
-parser.print("Separando a base de dados em treino, teste e validação")
-num_folds = 10
+parser.print("Dividindo a base em folders")
+num_folds = 5
 parser.print(str(num_folds) + " Cross Validation")
 cross = CrossFoldValidation(base, labels, num_folds)
 folders = cross.gerar_folders([])
-treino, teste, validacao, label_treino, label_teste, label_validacao = cross.separa_treino_teste(folders, 1, [2, 3])
-parser.print("Base de dados separada!")
+
 
 # Rodando os num_folds validation
 taxa_acerto_folds = []
 for i in range(num_folds):
+
+    # instanciando RBF novamente para inicializar os pesos e a taxa de aprendizagem inicial do fold
+    rbf = RBF(camadas, taxa_aprendizagem, epocas)
 
     parser.print("----------------------")
     parser.print("----------------------")
@@ -55,22 +93,12 @@ for i in range(num_folds):
     parser.print("----------------------")
     parser.print("----------------------")
 
+    # --- Separando treino teste e validação
+    treino, teste, validacao, label_treino, label_teste, label_validacao = separa_treino_teste(folders, i)
+    # ----
+
     # --- projetando base com eigenfaces
-    parser.print("Projetando eigenfaces...")
-    r = 1 # parametro fracionário
-    parser.print("r = " + str(r))
-    representatividade = 0.9 # representatividade da projeção
-    parser.print("Representatividade: " + str(representatividade))
-    autova, autove, media_treino = parser.eigenfaces_fit(treino, r)
-    treino_eig = parser.eigenfaces_transform_base(treino, autove, autova, media_treino, r, representatividade)
-    parser.print("Base de treino projetada!")
-    validacao_eig = parser.eigenfaces_transform_base(validacao, autove, autova, media_treino, r, representatividade)
-    parser.print("Base de validacao projetada!")
-    teste_eig = parser.eigenfaces_transform_base(teste, autove, autova, media_treino, r, representatividade)
-    parser.print("Base de teste projetada!")
-    parser.print("Dimensão da base de dados original:" + str(treino.shape))
-    parser.print("Dimensão da base de dados projetada:" + str(treino_eig.shape))
-    parser.print("Base de dados projetada!")
+    treino_eig, validacao_eig, teste_eig = projeta_eigenfaces(treino, validacao, teste, 1)
     #  ---
 
     # --- normalizando base de dados
@@ -91,9 +119,11 @@ for i in range(num_folds):
     # ---
 
 parser.print("Taxa de acerto do Experimento: " + str(taxa_acerto_folds))
-
+parser.print("Media da taxa de acerto: " + str(np.mean(taxa_acerto_folds)))
+parser.print("Desvio Padrão: " + str(np.std(taxa_acerto_folds)))
 
 #base_lda = parser.lda(base, labels)
 
 
 parser.close_log()
+
