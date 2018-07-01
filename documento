@@ -4,7 +4,9 @@
 		- a unica base que precisou do viola jones foi a faces95
 	- foi normalizada após a aplicação do PCA
 	    - todos os conjuntos (treino, teste e validação) foram normalizados usando máximos e minimos da base de treinamento
-    - 10-fold cross validation
+    - 10-fold cross validation | 5 fold
+    - georgia e faces95 cotem imagens de temanho diferente
+
 
 ---
 - Pré Processamento
@@ -23,4 +25,8 @@
 	- erro = labels_binario[i] - predict(base[i])
 	- Inicialização dos pesos é feita aleatória
     - Taxa de aprendizagem decai a cada (numero_total_epocas / 4) epocas
+        - inicia com 0.1
         - nova taxa de aprendizagem = taxa_aprendizagem / 10
+    - Epocas de treinamento = 1000 | 2004
+    - Se passar uma epoca sem atualizar os pesos para o treinamento, o treinamento é encerrado
+        - isso só acontece quando se tem passado no mínimo 100 epocas de treinamento

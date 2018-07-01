@@ -55,7 +55,7 @@ class RBF:
         # ------------------------
         # Treinando pesos da camada de saída
         # ------------------------
-
+        atualizou_epoca = 0
         # passando por todas as amostras de treinamento
         for epocas in range(self.epoca_treinamento):
             for i in range(len(treino)):
@@ -64,6 +64,7 @@ class RBF:
                 # se classificou errado atualiza os pesos
                 if( np.sum(self.erro) != 0):
                     self.atualiza_pesos()
+                    atualizou_epoca = 1
 
                 # a cada 25% das epocas rodadas, diminui a taxa de aprendizagem
             if(( (epocas%(self.epoca_treinamento/4))) == 0):
@@ -72,6 +73,15 @@ class RBF:
 
             if ((epocas%100) == 0):
                 Parser().print("Epoca: " + str(epocas) + "   -   Acerto no treino: " + str(round(self.calcula_taxa_acerto(treino, labels_treino), 4)) + "   -   Acerto na validação: " + str(round(self.calcula_taxa_acerto(validacao, labels_validacao), 4)))
+
+            if(atualizou_epoca == 0):
+                if(epocas > 100):
+                    Parser().print("Parou o treinamento na epoca: " + str(epocas))
+                    break
+
+            else:
+                atualizou_epoca = 0
+
 
     def atualiza_pesos(self):
 

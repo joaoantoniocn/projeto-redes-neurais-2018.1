@@ -96,7 +96,7 @@ parser.print("RBF instanciada!")
 
 # ----- Separa base de dados em folders
 parser.print("Dividindo a base em folders")
-num_folds = 5
+num_folds = 10
 parser.print(str(num_folds) + " Cross Validation")
 cross = CrossFoldValidation(base, labels, num_folds)
 folders = cross.gerar_folders([])
