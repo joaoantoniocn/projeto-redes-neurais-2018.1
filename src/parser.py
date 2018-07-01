@@ -70,12 +70,14 @@ class Parser:
         return np.reshape(m, (1, x*y))[0]
 
 
-    def lda(self, base, labels):
-        aux = LinearDiscriminantAnalysis()
-        aux.fit(base, labels)
+    def lda_fit(self, base, labels):
+        lda = LinearDiscriminantAnalysis()
+        lda.fit(base, labels)
 
-        return aux.transform(base)
+        return lda
 
+    def lda_transform(self, lda, base):
+        return lda.transform(base)
 
     def ordena(self, autovalores, autovetores):
 

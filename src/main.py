@@ -46,6 +46,28 @@ def projeta_eigenfaces(treino, validacao, teste, r):
 
     return treino_eig, validacao_eig, teste_eig
 
+def projeta_lda(treino, validacao, teste, label_treino):
+
+    parser.print("Calculando LDA...")
+    lda = parser.lda_fit(treino, label_treino)
+
+    parser.print("Projetando base de treino...")
+    treino_lda = parser.lda_transform(lda, treino)
+    parser.print("Base de treino projetada!")
+
+    parser.print("Projetando base de validacao...")
+    validacao_lda = parser.lda_transform(lda, validacao)
+    parser.print("Base de validacao projetada!")
+
+    parser.print("Projetando base de teste...")
+    teste_lda = parser.lda_transform(lda, teste)
+    parser.print("Base de teste projetada!")
+
+    parser.print("Projeção do LDA finalizada!")
+
+    return treino_lda, validacao_lda, teste_lda
+
+
 # ----- pré processamento ---
 # pegando face e equalizando histograma
 #parser.base2face('../bases/faces95/', '../bases/faces95_faces/')
