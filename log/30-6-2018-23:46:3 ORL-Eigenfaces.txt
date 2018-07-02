@@ -1,0 +1,484 @@
+30/6/2018-23:46:3 # Carregando base de dados...
+30/6/2018-23:46:3 # ../bases/ORL_faces/
+30/6/2018-23:46:3 # Base de dados carregada!
+30/6/2018-23:46:3 # ../bases/ORL_faces/
+30/6/2018-23:46:3 # Instanciando RBF...
+30/6/2018-23:46:3 # Camadas: [40, 40]
+30/6/2018-23:46:3 # taxa de aprendizzagem = 1
+30/6/2018-23:46:3 # numero de epocas = 2004
+30/6/2018-23:46:3 # RBF instanciada!
+30/6/2018-23:46:3 # Dividindo a base em folders
+30/6/2018-23:46:3 # 10 Cross Validation
+30/6/2018-23:46:3 # ----------------------
+30/6/2018-23:46:3 # ----------------------
+30/6/2018-23:46:3 # Fold 0
+30/6/2018-23:46:3 # ----------------------
+30/6/2018-23:46:3 # ----------------------
+30/6/2018-23:46:3 # Separando a base de dados em treino, teste e validação
+30/6/2018-23:46:4 # Base de dados separada!
+30/6/2018-23:46:4 # Projetando eigenfaces...
+30/6/2018-23:46:4 # r = 1
+30/6/2018-23:46:4 # Representatividade: 0.9
+30/6/2018-23:46:17 # Base de treino projetada!
+30/6/2018-23:46:19 # Base de validacao projetada!
+30/6/2018-23:46:21 # Base de teste projetada!
+30/6/2018-23:46:21 # Dimensão da base de dados original:(280, 10304)
+30/6/2018-23:46:21 # Dimensão da base de dados projetada:(280, 111)
+30/6/2018-23:46:21 # Base de dados projetada!
+30/6/2018-23:46:21 # Normalizando base de dados...
+30/6/2018-23:46:21 # Normalização da base de dados concluida! (treino, teste e validacao)
+30/6/2018-23:46:21 # Iniciando treinamento da RBF...
+30/6/2018-23:46:22 # Taxa de aprendizagem reduzida para :0.1
+30/6/2018-23:46:23 # Epoca: 0   -   Acerto no treino: 0.9857   -   Acerto na validação: 1.0
+30/6/2018-23:47:49 # Epoca: 100   -   Acerto no treino: 0.4821   -   Acerto na validação: 0.3
+30/6/2018-23:49:14 # Epoca: 200   -   Acerto no treino: 0.7036   -   Acerto na validação: 0.5375
+30/6/2018-23:50:38 # Epoca: 300   -   Acerto no treino: 0.6571   -   Acerto na validação: 0.4625
+30/6/2018-23:51:56 # Epoca: 400   -   Acerto no treino: 0.7536   -   Acerto na validação: 0.5875
+30/6/2018-23:53:16 # Epoca: 500   -   Acerto no treino: 0.7821   -   Acerto na validação: 0.5375
+30/6/2018-23:53:16 # Taxa de aprendizagem reduzida para :0.01
+30/6/2018-23:54:24 # Epoca: 600   -   Acerto no treino: 0.8393   -   Acerto na validação: 0.575
+30/6/2018-23:55:29 # Epoca: 700   -   Acerto no treino: 0.8679   -   Acerto na validação: 0.6
+30/6/2018-23:56:36 # Epoca: 800   -   Acerto no treino: 0.8821   -   Acerto na validação: 0.5875
+30/6/2018-23:57:40 # Epoca: 900   -   Acerto no treino: 0.8929   -   Acerto na validação: 0.6125
+30/6/2018-23:58:49 # Epoca: 1000   -   Acerto no treino: 0.8786   -   Acerto na validação: 0.625
+30/6/2018-23:58:50 # Taxa de aprendizagem reduzida para :0.001
+30/6/2018-23:59:54 # Epoca: 1100   -   Acerto no treino: 0.9179   -   Acerto na validação: 0.625
+1/7/2018-0:0:58 # Epoca: 1200   -   Acerto no treino: 0.9393   -   Acerto na validação: 0.625
+1/7/2018-0:2:1 # Epoca: 1300   -   Acerto no treino: 0.9179   -   Acerto na validação: 0.625
+1/7/2018-0:3:6 # Epoca: 1400   -   Acerto no treino: 0.95   -   Acerto na validação: 0.625
+1/7/2018-0:4:5 # Epoca: 1500   -   Acerto no treino: 0.9429   -   Acerto na validação: 0.625
+1/7/2018-0:4:6 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-0:5:3 # Epoca: 1600   -   Acerto no treino: 0.9429   -   Acerto na validação: 0.625
+1/7/2018-0:6:5 # Epoca: 1700   -   Acerto no treino: 0.9429   -   Acerto na validação: 0.625
+1/7/2018-0:7:7 # Epoca: 1800   -   Acerto no treino: 0.9571   -   Acerto na validação: 0.625
+1/7/2018-0:8:6 # Epoca: 1900   -   Acerto no treino: 0.9321   -   Acerto na validação: 0.625
+1/7/2018-0:9:9 # Epoca: 2000   -   Acerto no treino: 0.9393   -   Acerto na validação: 0.625
+1/7/2018-0:9:11 # Treinamento finalizado!
+1/7/2018-0:9:11 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-0:9:11 # Taxa de acerto do fold 0: 0.55
+1/7/2018-0:9:11 # ----------------------
+1/7/2018-0:9:11 # ----------------------
+1/7/2018-0:9:11 # Fold 1
+1/7/2018-0:9:11 # ----------------------
+1/7/2018-0:9:11 # ----------------------
+1/7/2018-0:9:11 # Separando a base de dados em treino, teste e validação
+1/7/2018-0:9:11 # Base de dados separada!
+1/7/2018-0:9:11 # Projetando eigenfaces...
+1/7/2018-0:9:11 # r = 1
+1/7/2018-0:9:11 # Representatividade: 0.9
+1/7/2018-0:9:27 # Base de treino projetada!
+1/7/2018-0:9:29 # Base de validacao projetada!
+1/7/2018-0:9:30 # Base de teste projetada!
+1/7/2018-0:9:30 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-0:9:30 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-0:9:30 # Base de dados projetada!
+1/7/2018-0:9:30 # Normalizando base de dados...
+1/7/2018-0:9:30 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-0:9:30 # Iniciando treinamento da RBF...
+1/7/2018-0:9:31 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-0:9:32 # Epoca: 0   -   Acerto no treino: 0.9964   -   Acerto na validação: 1.0
+1/7/2018-0:10:29 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:11:28 # Epoca: 200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:12:26 # Epoca: 300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:13:25 # Epoca: 400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:14:43 # Epoca: 500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:14:43 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-0:16:58 # Epoca: 600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:18:52 # Epoca: 700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:20:26 # Epoca: 800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:21:24 # Epoca: 900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:22:24 # Epoca: 1000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:22:25 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-0:23:27 # Epoca: 1100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:24:30 # Epoca: 1200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:25:29 # Epoca: 1300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:26:32 # Epoca: 1400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:27:37 # Epoca: 1500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:27:39 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-0:28:42 # Epoca: 1600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:29:43 # Epoca: 1700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:30:48 # Epoca: 1800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:31:47 # Epoca: 1900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:32:46 # Epoca: 2000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-0:32:48 # Treinamento finalizado!
+1/7/2018-0:32:48 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-0:32:49 # Taxa de acerto do fold 1: 1.0
+1/7/2018-0:32:49 # ----------------------
+1/7/2018-0:32:49 # ----------------------
+1/7/2018-0:32:49 # Fold 2
+1/7/2018-0:32:49 # ----------------------
+1/7/2018-0:32:49 # ----------------------
+1/7/2018-0:32:49 # Separando a base de dados em treino, teste e validação
+1/7/2018-0:32:49 # Base de dados separada!
+1/7/2018-0:32:49 # Projetando eigenfaces...
+1/7/2018-0:32:49 # r = 1
+1/7/2018-0:32:49 # Representatividade: 0.9
+1/7/2018-0:33:0 # Base de treino projetada!
+1/7/2018-0:33:3 # Base de validacao projetada!
+1/7/2018-0:33:4 # Base de teste projetada!
+1/7/2018-0:33:4 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-0:33:4 # Dimensão da base de dados projetada:(280, 110)
+1/7/2018-0:33:4 # Base de dados projetada!
+1/7/2018-0:33:4 # Normalizando base de dados...
+1/7/2018-0:33:4 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-0:33:4 # Iniciando treinamento da RBF...
+1/7/2018-0:33:5 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-0:33:6 # Epoca: 0   -   Acerto no treino: 0.9464   -   Acerto na validação: 1.0
+1/7/2018-0:35:49 # Epoca: 100   -   Acerto no treino: 0.3036   -   Acerto na validação: 0.35
+1/7/2018-0:38:19 # Epoca: 200   -   Acerto no treino: 0.5286   -   Acerto na validação: 0.475
+1/7/2018-0:39:43 # Epoca: 300   -   Acerto no treino: 0.3714   -   Acerto na validação: 0.375
+1/7/2018-0:40:58 # Epoca: 400   -   Acerto no treino: 0.575   -   Acerto na validação: 0.425
+1/7/2018-0:42:17 # Epoca: 500   -   Acerto no treino: 0.4286   -   Acerto na validação: 0.45
+1/7/2018-0:42:18 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-0:43:23 # Epoca: 600   -   Acerto no treino: 0.8429   -   Acerto na validação: 0.55
+1/7/2018-0:44:33 # Epoca: 700   -   Acerto no treino: 0.8393   -   Acerto na validação: 0.55
+1/7/2018-0:45:39 # Epoca: 800   -   Acerto no treino: 0.8   -   Acerto na validação: 0.6125
+1/7/2018-0:46:44 # Epoca: 900   -   Acerto no treino: 0.8429   -   Acerto na validação: 0.6
+1/7/2018-0:47:50 # Epoca: 1000   -   Acerto no treino: 0.8679   -   Acerto na validação: 0.6
+1/7/2018-0:47:51 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-0:48:52 # Epoca: 1100   -   Acerto no treino: 0.8857   -   Acerto na validação: 0.575
+1/7/2018-0:49:57 # Epoca: 1200   -   Acerto no treino: 0.8929   -   Acerto na validação: 0.575
+1/7/2018-0:51:0 # Epoca: 1300   -   Acerto no treino: 0.9071   -   Acerto na validação: 0.575
+1/7/2018-0:52:5 # Epoca: 1400   -   Acerto no treino: 0.8929   -   Acerto na validação: 0.575
+1/7/2018-0:53:8 # Epoca: 1500   -   Acerto no treino: 0.8821   -   Acerto na validação: 0.5875
+1/7/2018-0:53:10 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-0:54:13 # Epoca: 1600   -   Acerto no treino: 0.8929   -   Acerto na validação: 0.5875
+1/7/2018-0:55:15 # Epoca: 1700   -   Acerto no treino: 0.9   -   Acerto na validação: 0.5875
+1/7/2018-0:56:17 # Epoca: 1800   -   Acerto no treino: 0.8893   -   Acerto na validação: 0.5875
+1/7/2018-0:57:21 # Epoca: 1900   -   Acerto no treino: 0.8857   -   Acerto na validação: 0.5875
+1/7/2018-0:58:23 # Epoca: 2000   -   Acerto no treino: 0.8821   -   Acerto na validação: 0.5875
+1/7/2018-0:58:25 # Treinamento finalizado!
+1/7/2018-0:58:25 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-0:58:25 # Taxa de acerto do fold 2: 0.55
+1/7/2018-0:58:25 # ----------------------
+1/7/2018-0:58:25 # ----------------------
+1/7/2018-0:58:25 # Fold 3
+1/7/2018-0:58:25 # ----------------------
+1/7/2018-0:58:25 # ----------------------
+1/7/2018-0:58:25 # Separando a base de dados em treino, teste e validação
+1/7/2018-0:58:25 # Base de dados separada!
+1/7/2018-0:58:25 # Projetando eigenfaces...
+1/7/2018-0:58:25 # r = 1
+1/7/2018-0:58:25 # Representatividade: 0.9
+1/7/2018-0:58:37 # Base de treino projetada!
+1/7/2018-0:58:39 # Base de validacao projetada!
+1/7/2018-0:58:40 # Base de teste projetada!
+1/7/2018-0:58:40 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-0:58:40 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-0:58:40 # Base de dados projetada!
+1/7/2018-0:58:40 # Normalizando base de dados...
+1/7/2018-0:58:41 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-0:58:41 # Iniciando treinamento da RBF...
+1/7/2018-0:58:42 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-0:58:42 # Epoca: 0   -   Acerto no treino: 0.9857   -   Acerto na validação: 1.0
+1/7/2018-1:0:4 # Epoca: 100   -   Acerto no treino: 0.5357   -   Acerto na validação: 0.4875
+1/7/2018-1:1:22 # Epoca: 200   -   Acerto no treino: 0.4857   -   Acerto na validação: 0.4875
+1/7/2018-1:2:41 # Epoca: 300   -   Acerto no treino: 0.6607   -   Acerto na validação: 0.5
+1/7/2018-1:3:56 # Epoca: 400   -   Acerto no treino: 0.5357   -   Acerto na validação: 0.45
+1/7/2018-1:5:11 # Epoca: 500   -   Acerto no treino: 0.575   -   Acerto na validação: 0.35
+1/7/2018-1:5:12 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-1:6:15 # Epoca: 600   -   Acerto no treino: 0.8714   -   Acerto na validação: 0.5375
+1/7/2018-1:7:21 # Epoca: 700   -   Acerto no treino: 0.9143   -   Acerto na validação: 0.5375
+1/7/2018-1:8:25 # Epoca: 800   -   Acerto no treino: 0.8821   -   Acerto na validação: 0.5125
+1/7/2018-1:9:32 # Epoca: 900   -   Acerto no treino: 0.9107   -   Acerto na validação: 0.5375
+1/7/2018-1:10:37 # Epoca: 1000   -   Acerto no treino: 0.9143   -   Acerto na validação: 0.5125
+1/7/2018-1:10:38 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-1:11:36 # Epoca: 1100   -   Acerto no treino: 0.9071   -   Acerto na validação: 0.525
+1/7/2018-1:12:39 # Epoca: 1200   -   Acerto no treino: 0.9   -   Acerto na validação: 0.525
+1/7/2018-1:13:40 # Epoca: 1300   -   Acerto no treino: 0.8964   -   Acerto na validação: 0.525
+1/7/2018-1:14:45 # Epoca: 1400   -   Acerto no treino: 0.9071   -   Acerto na validação: 0.525
+1/7/2018-1:15:48 # Epoca: 1500   -   Acerto no treino: 0.9   -   Acerto na validação: 0.525
+1/7/2018-1:15:51 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-1:16:53 # Epoca: 1600   -   Acerto no treino: 0.9036   -   Acerto na validação: 0.525
+1/7/2018-1:17:57 # Epoca: 1700   -   Acerto no treino: 0.9107   -   Acerto na validação: 0.525
+1/7/2018-1:19:0 # Epoca: 1800   -   Acerto no treino: 0.9143   -   Acerto na validação: 0.525
+1/7/2018-1:20:2 # Epoca: 1900   -   Acerto no treino: 0.9214   -   Acerto na validação: 0.525
+1/7/2018-1:21:3 # Epoca: 2000   -   Acerto no treino: 0.9107   -   Acerto na validação: 0.525
+1/7/2018-1:21:5 # Treinamento finalizado!
+1/7/2018-1:21:5 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-1:21:5 # Taxa de acerto do fold 3: 0.6
+1/7/2018-1:21:5 # ----------------------
+1/7/2018-1:21:5 # ----------------------
+1/7/2018-1:21:5 # Fold 4
+1/7/2018-1:21:5 # ----------------------
+1/7/2018-1:21:5 # ----------------------
+1/7/2018-1:21:5 # Separando a base de dados em treino, teste e validação
+1/7/2018-1:21:5 # Base de dados separada!
+1/7/2018-1:21:5 # Projetando eigenfaces...
+1/7/2018-1:21:5 # r = 1
+1/7/2018-1:21:5 # Representatividade: 0.9
+1/7/2018-1:21:17 # Base de treino projetada!
+1/7/2018-1:21:20 # Base de validacao projetada!
+1/7/2018-1:21:22 # Base de teste projetada!
+1/7/2018-1:21:22 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-1:21:22 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-1:21:22 # Base de dados projetada!
+1/7/2018-1:21:22 # Normalizando base de dados...
+1/7/2018-1:21:22 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-1:21:22 # Iniciando treinamento da RBF...
+1/7/2018-1:21:23 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-1:21:24 # Epoca: 0   -   Acerto no treino: 0.9964   -   Acerto na validação: 1.0
+1/7/2018-1:22:23 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:23:34 # Epoca: 200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:25:43 # Epoca: 300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:27:32 # Epoca: 400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:29:20 # Epoca: 500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:29:21 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-1:30:19 # Epoca: 600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:31:17 # Epoca: 700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:32:12 # Epoca: 800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:33:12 # Epoca: 900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:34:7 # Epoca: 1000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:34:8 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-1:35:5 # Epoca: 1100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:36:5 # Epoca: 1200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:37:3 # Epoca: 1300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:38:0 # Epoca: 1400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:38:57 # Epoca: 1500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:38:59 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-1:39:52 # Epoca: 1600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:40:51 # Epoca: 1700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:41:46 # Epoca: 1800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:42:45 # Epoca: 1900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:43:44 # Epoca: 2000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:43:46 # Treinamento finalizado!
+1/7/2018-1:43:46 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-1:43:46 # Taxa de acerto do fold 4: 1.0
+1/7/2018-1:43:46 # ----------------------
+1/7/2018-1:43:46 # ----------------------
+1/7/2018-1:43:46 # Fold 5
+1/7/2018-1:43:46 # ----------------------
+1/7/2018-1:43:46 # ----------------------
+1/7/2018-1:43:46 # Separando a base de dados em treino, teste e validação
+1/7/2018-1:43:46 # Base de dados separada!
+1/7/2018-1:43:46 # Projetando eigenfaces...
+1/7/2018-1:43:46 # r = 1
+1/7/2018-1:43:46 # Representatividade: 0.9
+1/7/2018-1:43:57 # Base de treino projetada!
+1/7/2018-1:43:58 # Base de validacao projetada!
+1/7/2018-1:43:59 # Base de teste projetada!
+1/7/2018-1:43:59 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-1:43:59 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-1:43:59 # Base de dados projetada!
+1/7/2018-1:43:59 # Normalizando base de dados...
+1/7/2018-1:44:0 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-1:44:0 # Iniciando treinamento da RBF...
+1/7/2018-1:44:1 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-1:44:1 # Epoca: 0   -   Acerto no treino: 0.9821   -   Acerto na validação: 1.0
+1/7/2018-1:45:3 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:45:57 # Epoca: 200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:46:57 # Epoca: 300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:47:52 # Epoca: 400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:48:47 # Epoca: 500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:48:47 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-1:49:44 # Epoca: 600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:50:40 # Epoca: 700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:51:37 # Epoca: 800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:52:32 # Epoca: 900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:53:30 # Epoca: 1000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:53:31 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-1:54:27 # Epoca: 1100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:55:23 # Epoca: 1200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:56:20 # Epoca: 1300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:57:19 # Epoca: 1400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:58:20 # Epoca: 1500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-1:58:21 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-1:59:13 # Epoca: 1600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:0:12 # Epoca: 1700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:1:9 # Epoca: 1800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:2:6 # Epoca: 1900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:3:2 # Epoca: 2000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:3:4 # Treinamento finalizado!
+1/7/2018-2:3:4 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-2:3:4 # Taxa de acerto do fold 5: 1.0
+1/7/2018-2:3:4 # ----------------------
+1/7/2018-2:3:4 # ----------------------
+1/7/2018-2:3:4 # Fold 6
+1/7/2018-2:3:4 # ----------------------
+1/7/2018-2:3:4 # ----------------------
+1/7/2018-2:3:4 # Separando a base de dados em treino, teste e validação
+1/7/2018-2:3:4 # Base de dados separada!
+1/7/2018-2:3:4 # Projetando eigenfaces...
+1/7/2018-2:3:4 # r = 1
+1/7/2018-2:3:4 # Representatividade: 0.9
+1/7/2018-2:3:17 # Base de treino projetada!
+1/7/2018-2:3:20 # Base de validacao projetada!
+1/7/2018-2:3:21 # Base de teste projetada!
+1/7/2018-2:3:21 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-2:3:21 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-2:3:21 # Base de dados projetada!
+1/7/2018-2:3:21 # Normalizando base de dados...
+1/7/2018-2:3:22 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-2:3:22 # Iniciando treinamento da RBF...
+1/7/2018-2:3:23 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-2:3:24 # Epoca: 0   -   Acerto no treino: 0.9964   -   Acerto na validação: 1.0
+1/7/2018-2:4:21 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:5:20 # Epoca: 200   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:6:22 # Epoca: 300   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:7:19 # Epoca: 400   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:8:15 # Epoca: 500   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:8:16 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-2:9:17 # Epoca: 600   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:10:18 # Epoca: 700   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:11:13 # Epoca: 800   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:12:15 # Epoca: 900   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:13:11 # Epoca: 1000   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:13:12 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-2:14:13 # Epoca: 1100   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:15:13 # Epoca: 1200   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:16:11 # Epoca: 1300   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:17:11 # Epoca: 1400   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:18:5 # Epoca: 1500   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:18:7 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-2:19:4 # Epoca: 1600   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:20:5 # Epoca: 1700   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:21:3 # Epoca: 1800   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:22:4 # Epoca: 1900   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:23:1 # Epoca: 2000   -   Acerto no treino: 1.0   -   Acerto na validação: 0.9875
+1/7/2018-2:23:3 # Treinamento finalizado!
+1/7/2018-2:23:3 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-2:23:3 # Taxa de acerto do fold 6: 1.0
+1/7/2018-2:23:3 # ----------------------
+1/7/2018-2:23:3 # ----------------------
+1/7/2018-2:23:3 # Fold 7
+1/7/2018-2:23:3 # ----------------------
+1/7/2018-2:23:3 # ----------------------
+1/7/2018-2:23:3 # Separando a base de dados em treino, teste e validação
+1/7/2018-2:23:3 # Base de dados separada!
+1/7/2018-2:23:3 # Projetando eigenfaces...
+1/7/2018-2:23:3 # r = 1
+1/7/2018-2:23:3 # Representatividade: 0.9
+1/7/2018-2:23:15 # Base de treino projetada!
+1/7/2018-2:23:19 # Base de validacao projetada!
+1/7/2018-2:23:22 # Base de teste projetada!
+1/7/2018-2:23:22 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-2:23:22 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-2:23:22 # Base de dados projetada!
+1/7/2018-2:23:22 # Normalizando base de dados...
+1/7/2018-2:23:22 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-2:23:22 # Iniciando treinamento da RBF...
+1/7/2018-2:23:24 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-2:23:25 # Epoca: 0   -   Acerto no treino: 0.9929   -   Acerto na validação: 1.0
+1/7/2018-2:24:24 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:25:23 # Epoca: 200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:26:24 # Epoca: 300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:27:26 # Epoca: 400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:28:41 # Epoca: 500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:28:41 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-2:30:51 # Epoca: 600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:32:44 # Epoca: 700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:34:17 # Epoca: 800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:35:17 # Epoca: 900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:36:17 # Epoca: 1000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:36:18 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-2:37:14 # Epoca: 1100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:38:13 # Epoca: 1200   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:39:12 # Epoca: 1300   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:40:13 # Epoca: 1400   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:41:13 # Epoca: 1500   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:41:15 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-2:42:11 # Epoca: 1600   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:43:11 # Epoca: 1700   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:44:10 # Epoca: 1800   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:45:8 # Epoca: 1900   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:46:9 # Epoca: 2000   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-2:46:11 # Treinamento finalizado!
+1/7/2018-2:46:11 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-2:46:11 # Taxa de acerto do fold 7: 1.0
+1/7/2018-2:46:11 # ----------------------
+1/7/2018-2:46:11 # ----------------------
+1/7/2018-2:46:11 # Fold 8
+1/7/2018-2:46:11 # ----------------------
+1/7/2018-2:46:11 # ----------------------
+1/7/2018-2:46:11 # Separando a base de dados em treino, teste e validação
+1/7/2018-2:46:11 # Base de dados separada!
+1/7/2018-2:46:11 # Projetando eigenfaces...
+1/7/2018-2:46:11 # r = 1
+1/7/2018-2:46:11 # Representatividade: 0.9
+1/7/2018-2:46:25 # Base de treino projetada!
+1/7/2018-2:46:28 # Base de validacao projetada!
+1/7/2018-2:46:29 # Base de teste projetada!
+1/7/2018-2:46:29 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-2:46:29 # Dimensão da base de dados projetada:(280, 110)
+1/7/2018-2:46:29 # Base de dados projetada!
+1/7/2018-2:46:29 # Normalizando base de dados...
+1/7/2018-2:46:29 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-2:46:29 # Iniciando treinamento da RBF...
+1/7/2018-2:46:30 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-2:46:31 # Epoca: 0   -   Acerto no treino: 0.9929   -   Acerto na validação: 1.0
+1/7/2018-2:47:54 # Epoca: 100   -   Acerto no treino: 0.5179   -   Acerto na validação: 0.5875
+1/7/2018-2:49:16 # Epoca: 200   -   Acerto no treino: 0.4107   -   Acerto na validação: 0.525
+1/7/2018-2:50:34 # Epoca: 300   -   Acerto no treino: 0.3893   -   Acerto na validação: 0.5
+1/7/2018-2:51:50 # Epoca: 400   -   Acerto no treino: 0.6714   -   Acerto na validação: 0.5125
+1/7/2018-2:53:6 # Epoca: 500   -   Acerto no treino: 0.4464   -   Acerto na validação: 0.55
+1/7/2018-2:53:7 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-2:54:10 # Epoca: 600   -   Acerto no treino: 0.8643   -   Acerto na validação: 0.6125
+1/7/2018-2:55:14 # Epoca: 700   -   Acerto no treino: 0.8821   -   Acerto na validação: 0.6
+1/7/2018-2:56:18 # Epoca: 800   -   Acerto no treino: 0.9214   -   Acerto na validação: 0.6
+1/7/2018-2:57:21 # Epoca: 900   -   Acerto no treino: 0.8929   -   Acerto na validação: 0.6
+1/7/2018-2:58:25 # Epoca: 1000   -   Acerto no treino: 0.9143   -   Acerto na validação: 0.575
+1/7/2018-2:58:26 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-2:59:29 # Epoca: 1100   -   Acerto no treino: 0.9143   -   Acerto na validação: 0.5875
+1/7/2018-3:0:27 # Epoca: 1200   -   Acerto no treino: 0.9179   -   Acerto na validação: 0.5875
+1/7/2018-3:1:25 # Epoca: 1300   -   Acerto no treino: 0.9393   -   Acerto na validação: 0.5875
+1/7/2018-3:2:24 # Epoca: 1400   -   Acerto no treino: 0.9393   -   Acerto na validação: 0.575
+1/7/2018-3:3:29 # Epoca: 1500   -   Acerto no treino: 0.925   -   Acerto na validação: 0.575
+1/7/2018-3:3:31 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-3:4:31 # Epoca: 1600   -   Acerto no treino: 0.9429   -   Acerto na validação: 0.5875
+1/7/2018-3:5:33 # Epoca: 1700   -   Acerto no treino: 0.9321   -   Acerto na validação: 0.5875
+1/7/2018-3:6:34 # Epoca: 1800   -   Acerto no treino: 0.9321   -   Acerto na validação: 0.5875
+1/7/2018-3:7:37 # Epoca: 1900   -   Acerto no treino: 0.9214   -   Acerto na validação: 0.5875
+1/7/2018-3:8:37 # Epoca: 2000   -   Acerto no treino: 0.9286   -   Acerto na validação: 0.5875
+1/7/2018-3:8:39 # Treinamento finalizado!
+1/7/2018-3:8:39 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-3:8:39 # Taxa de acerto do fold 8: 0.6
+1/7/2018-3:8:39 # ----------------------
+1/7/2018-3:8:39 # ----------------------
+1/7/2018-3:8:39 # Fold 9
+1/7/2018-3:8:39 # ----------------------
+1/7/2018-3:8:39 # ----------------------
+1/7/2018-3:8:39 # Separando a base de dados em treino, teste e validação
+1/7/2018-3:8:39 # Base de dados separada!
+1/7/2018-3:8:39 # Projetando eigenfaces...
+1/7/2018-3:8:39 # r = 1
+1/7/2018-3:8:39 # Representatividade: 0.9
+1/7/2018-3:8:49 # Base de treino projetada!
+1/7/2018-3:8:52 # Base de validacao projetada!
+1/7/2018-3:8:54 # Base de teste projetada!
+1/7/2018-3:8:54 # Dimensão da base de dados original:(280, 10304)
+1/7/2018-3:8:54 # Dimensão da base de dados projetada:(280, 111)
+1/7/2018-3:8:54 # Base de dados projetada!
+1/7/2018-3:8:54 # Normalizando base de dados...
+1/7/2018-3:8:54 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-3:8:54 # Iniciando treinamento da RBF...
+1/7/2018-3:8:55 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-3:8:56 # Epoca: 0   -   Acerto no treino: 0.9929   -   Acerto na validação: 1.0
+1/7/2018-3:10:15 # Epoca: 100   -   Acerto no treino: 0.475   -   Acerto na validação: 0.4
+1/7/2018-3:11:34 # Epoca: 200   -   Acerto no treino: 0.3821   -   Acerto na validação: 0.4125
+1/7/2018-3:12:52 # Epoca: 300   -   Acerto no treino: 0.4857   -   Acerto na validação: 0.5
+1/7/2018-3:14:12 # Epoca: 400   -   Acerto no treino: 0.6071   -   Acerto na validação: 0.4375
+1/7/2018-3:15:27 # Epoca: 500   -   Acerto no treino: 0.3464   -   Acerto na validação: 0.3625
+1/7/2018-3:15:28 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-3:16:37 # Epoca: 600   -   Acerto no treino: 0.8393   -   Acerto na validação: 0.55
+1/7/2018-3:17:45 # Epoca: 700   -   Acerto no treino: 0.8357   -   Acerto na validação: 0.5375
+1/7/2018-3:18:48 # Epoca: 800   -   Acerto no treino: 0.8393   -   Acerto na validação: 0.525
+1/7/2018-3:19:54 # Epoca: 900   -   Acerto no treino: 0.9107   -   Acerto na validação: 0.5875
+1/7/2018-3:20:58 # Epoca: 1000   -   Acerto no treino: 0.8786   -   Acerto na validação: 0.6
+1/7/2018-3:20:59 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-3:22:3 # Epoca: 1100   -   Acerto no treino: 0.9107   -   Acerto na validação: 0.55
+1/7/2018-3:23:3 # Epoca: 1200   -   Acerto no treino: 0.9   -   Acerto na validação: 0.5625
+1/7/2018-3:24:6 # Epoca: 1300   -   Acerto no treino: 0.9   -   Acerto na validação: 0.5375
+1/7/2018-3:25:6 # Epoca: 1400   -   Acerto no treino: 0.8893   -   Acerto na validação: 0.55
+1/7/2018-3:26:7 # Epoca: 1500   -   Acerto no treino: 0.9107   -   Acerto na validação: 0.55
+1/7/2018-3:26:9 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-3:27:10 # Epoca: 1600   -   Acerto no treino: 0.9179   -   Acerto na validação: 0.5375
+1/7/2018-3:28:12 # Epoca: 1700   -   Acerto no treino: 0.9071   -   Acerto na validação: 0.5375
+1/7/2018-3:29:16 # Epoca: 1800   -   Acerto no treino: 0.9143   -   Acerto na validação: 0.5375
+1/7/2018-3:30:17 # Epoca: 1900   -   Acerto no treino: 0.9036   -   Acerto na validação: 0.5375
+1/7/2018-3:31:18 # Epoca: 2000   -   Acerto no treino: 0.9   -   Acerto na validação: 0.5375
+1/7/2018-3:31:20 # Treinamento finalizado!
+1/7/2018-3:31:20 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-3:31:20 # Taxa de acerto do fold 9: 0.625
+1/7/2018-3:31:20 # Taxa de acerto do Experimento: [0.55, 1.0, 0.55, 0.6, 1.0, 1.0, 1.0, 1.0, 0.6, 0.625]
+1/7/2018-3:31:20 # Media da taxa de acerto: 0.7925
+1/7/2018-3:31:20 # Desvio Padrão: 0.2085815188361615

@@ -1,0 +1,136 @@
+30/6/2018-19:4:24 # Carregando base de dados...
+30/6/2018-19:4:24 # ../bases/AR_faces/
+30/6/2018-19:4:26 # Base de dados carregada!
+30/6/2018-19:4:26 # Instanciando RBF...
+30/6/2018-19:4:26 # Camadas: [100, 100]
+30/6/2018-19:4:26 # taxa de aprendizzagem = 0.1
+30/6/2018-19:4:26 # numero de epocas = 1000
+30/6/2018-19:4:26 # RBF instanciada!
+30/6/2018-19:4:26 # Dividindo a base em folders
+30/6/2018-19:4:26 # 10 Cross Validation
+30/6/2018-19:4:26 # ----------------------
+30/6/2018-19:4:26 # ----------------------
+30/6/2018-19:4:26 # Fold 0
+30/6/2018-19:4:26 # ----------------------
+30/6/2018-19:4:26 # ----------------------
+30/6/2018-19:4:26 # Separando a base de dados em treino, teste e validação
+30/6/2018-19:4:28 # Base de dados separada!
+30/6/2018-19:4:28 # Projetando eigenfaces...
+30/6/2018-19:4:28 # r = 1
+30/6/2018-19:4:28 # Representatividade: 0.9
+30/6/2018-19:9:59 # Base de treino projetada!
+30/6/2018-19:11:13 # Base de validacao projetada!
+30/6/2018-19:11:50 # Base de teste projetada!
+30/6/2018-19:11:50 # Dimensão da base de dados original:(1400, 19800)
+30/6/2018-19:11:50 # Dimensão da base de dados projetada:(1400, 87)
+30/6/2018-19:11:50 # Base de dados projetada!
+30/6/2018-19:11:50 # Normalizando base de dados...
+30/6/2018-19:11:51 # Normalização da base de dados concluida! (treino, teste e validacao)
+30/6/2018-19:11:51 # Iniciando treinamento da RBF...
+30/6/2018-19:12:44 # Taxa de aprendizagem reduzida para :0.01
+30/6/2018-19:13:24 # Epoca: 0   -   Acerto no treino: 0.4929   -   Acerto na validação: 0.5425
+30/6/2018-20:6:13 # Epoca: 100   -   Acerto no treino: 0.485   -   Acerto na validação: 0.405
+30/6/2018-20:53:16 # Epoca: 200   -   Acerto no treino: 0.6421   -   Acerto na validação: 0.5075
+30/6/2018-21:12:15 # Taxa de aprendizagem reduzida para :0.001
+30/6/2018-21:29:13 # Epoca: 300   -   Acerto no treino: 0.8729   -   Acerto na validação: 0.57
+30/6/2018-22:2:36 # Epoca: 400   -   Acerto no treino: 0.9021   -   Acerto na validação: 0.5525
+30/6/2018-22:31:36 # Taxa de aprendizagem reduzida para :0.0001
+30/6/2018-22:31:50 # Epoca: 500   -   Acerto no treino: 0.9086   -   Acerto na validação: 0.54
+30/6/2018-22:51:28 # Epoca: 600   -   Acerto no treino: 0.925   -   Acerto na validação: 0.5375
+30/6/2018-23:17:54 # Epoca: 700   -   Acerto no treino: 0.9279   -   Acerto na validação: 0.5325
+30/6/2018-23:29:59 # Taxa de aprendizagem reduzida para :1e-05
+30/6/2018-23:42:18 # Epoca: 800   -   Acerto no treino: 0.9286   -   Acerto na validação: 0.5325
+1/7/2018-0:6:22 # Epoca: 900   -   Acerto no treino: 0.9336   -   Acerto na validação: 0.5325
+1/7/2018-0:32:59 # Treinamento finalizado!
+1/7/2018-0:32:59 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-0:33:3 # Taxa de acerto do fold 0: 0.555
+1/7/2018-0:33:3 # ----------------------
+1/7/2018-0:33:3 # ----------------------
+1/7/2018-0:33:3 # Fold 1
+1/7/2018-0:33:3 # ----------------------
+1/7/2018-0:33:3 # ----------------------
+1/7/2018-0:33:3 # Separando a base de dados em treino, teste e validação
+1/7/2018-0:33:8 # Base de dados separada!
+1/7/2018-0:33:8 # Projetando eigenfaces...
+1/7/2018-0:33:8 # r = 1
+1/7/2018-0:33:8 # Representatividade: 0.9
+1/7/2018-0:37:5 # Base de treino projetada!
+1/7/2018-0:37:53 # Base de validacao projetada!
+1/7/2018-0:38:21 # Base de teste projetada!
+1/7/2018-0:38:21 # Dimensão da base de dados original:(1400, 19800)
+1/7/2018-0:38:21 # Dimensão da base de dados projetada:(1400, 87)
+1/7/2018-0:38:21 # Base de dados projetada!
+1/7/2018-0:38:21 # Normalizando base de dados...
+1/7/2018-0:38:21 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-0:38:21 # Iniciando treinamento da RBF...
+1/7/2018-0:38:43 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-0:38:59 # Epoca: 0   -   Acerto no treino: 0.9493   -   Acerto na validação: 0.975
+1/7/2018-1:18:54 # Epoca: 100   -   Acerto no treino: 0.4414   -   Acerto na validação: 0.37
+1/7/2018-1:54:25 # Epoca: 200   -   Acerto no treino: 0.6593   -   Acerto na validação: 0.4875
+1/7/2018-2:8:37 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-2:21:37 # Epoca: 300   -   Acerto no treino: 0.85   -   Acerto na validação: 0.52
+1/7/2018-2:50:4 # Epoca: 400   -   Acerto no treino: 0.8607   -   Acerto na validação: 0.5175
+1/7/2018-3:13:36 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-3:13:52 # Epoca: 500   -   Acerto no treino: 0.8907   -   Acerto na validação: 0.5075
+1/7/2018-3:38:38 # Epoca: 600   -   Acerto no treino: 0.9093   -   Acerto na validação: 0.5125
+1/7/2018-3:57:1 # Epoca: 700   -   Acerto no treino: 0.9057   -   Acerto na validação: 0.5125
+1/7/2018-4:6:9 # Taxa de aprendizagem reduzida para :1e-05
+1/7/2018-4:15:32 # Epoca: 800   -   Acerto no treino: 0.9207   -   Acerto na validação: 0.5125
+1/7/2018-4:36:42 # Epoca: 900   -   Acerto no treino: 0.9171   -   Acerto na validação: 0.5125
+1/7/2018-4:54:41 # Treinamento finalizado!
+1/7/2018-4:54:41 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-4:54:42 # Taxa de acerto do fold 1: 0.49
+1/7/2018-4:54:42 # ----------------------
+1/7/2018-4:54:42 # ----------------------
+1/7/2018-4:54:42 # Fold 2
+1/7/2018-4:54:42 # ----------------------
+1/7/2018-4:54:42 # ----------------------
+1/7/2018-4:54:42 # Separando a base de dados em treino, teste e validação
+1/7/2018-4:54:45 # Base de dados separada!
+1/7/2018-4:54:45 # Projetando eigenfaces...
+1/7/2018-4:54:45 # r = 1
+1/7/2018-4:54:45 # Representatividade: 0.9
+1/7/2018-4:57:36 # Base de treino projetada!
+1/7/2018-4:58:11 # Base de validacao projetada!
+1/7/2018-4:58:33 # Base de teste projetada!
+1/7/2018-4:58:33 # Dimensão da base de dados original:(1400, 19800)
+1/7/2018-4:58:33 # Dimensão da base de dados projetada:(1400, 86)
+1/7/2018-4:58:33 # Base de dados projetada!
+1/7/2018-4:58:33 # Normalizando base de dados...
+1/7/2018-4:58:33 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-4:58:33 # Iniciando treinamento da RBF...
+1/7/2018-4:58:51 # Taxa de aprendizagem reduzida para :0.01
+1/7/2018-4:59:5 # Epoca: 0   -   Acerto no treino: 0.3821   -   Acerto na validação: 0.405
+1/7/2018-5:33:27 # Epoca: 100   -   Acerto no treino: 0.4564   -   Acerto na validação: 0.375
+1/7/2018-5:58:57 # Epoca: 200   -   Acerto no treino: 0.68   -   Acerto na validação: 0.46
+1/7/2018-6:10:2 # Taxa de aprendizagem reduzida para :0.001
+1/7/2018-6:17:45 # Epoca: 300   -   Acerto no treino: 0.8729   -   Acerto na validação: 0.5
+1/7/2018-6:32:23 # Epoca: 400   -   Acerto no treino: 0.905   -   Acerto na validação: 0.5125
+1/7/2018-6:46:31 # Taxa de aprendizagem reduzida para :0.0001
+1/7/2018-6:46:41 # Epoca: 500   -   Acerto no treino: 0.9329   -   Acerto na validação: 0.49
+1/7/2018-7:0:35 # Epoca: 600   -   Acerto no treino: 0.9371   -   Acerto na validação: 0.505
+1/7/2018-7:14:22 # Epoca: 700   -   Acerto no treino: 0.9407   -   Acerto na validação: 0.505
+1/7/2018-7:21:16 # Taxa de aprendizagem reduzida para :1e-05
+1/7/2018-7:28:15 # Epoca: 800   -   Acerto no treino: 0.9471   -   Acerto na validação: 0.505
+1/7/2018-7:42:6 # Epoca: 900   -   Acerto no treino: 0.9443   -   Acerto na validação: 0.505
+1/7/2018-7:55:38 # Treinamento finalizado!
+1/7/2018-7:55:38 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-7:55:39 # Taxa de acerto do fold 2: 0.51
+1/7/2018-7:55:39 # ----------------------
+1/7/2018-7:55:39 # ----------------------
+1/7/2018-7:55:39 # Fold 3
+1/7/2018-7:55:39 # ----------------------
+1/7/2018-7:55:39 # ----------------------
+1/7/2018-7:55:39 # Separando a base de dados em treino, teste e validação
+1/7/2018-7:55:42 # Base de dados separada!
+1/7/2018-7:55:42 # Projetando eigenfaces...
+1/7/2018-7:55:42 # r = 1
+1/7/2018-7:55:42 # Representatividade: 0.9
+1/7/2018-7:58:5 # Base de treino projetada!
+1/7/2018-7:58:33 # Base de validacao projetada!
+1/7/2018-7:58:49 # Base de teste projetada!
+1/7/2018-7:58:49 # Dimensão da base de dados original:(1400, 19800)
+1/7/2018-7:58:49 # Dimensão da base de dados projetada:(1400, 86)
+1/7/2018-7:58:49 # Base de dados projetada!
+1/7/2018-7:58:49 # Normalizando base de dados...
+1/7/2018-7:58:49 # Normalização da base de dados concluida! (treino, teste e validacao)

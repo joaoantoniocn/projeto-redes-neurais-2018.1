@@ -1,0 +1,264 @@
+1/7/2018-23:12:58 # Carregando base de dados...
+1/7/2018-23:12:58 # ../bases/AR_faces/
+1/7/2018-23:13:0 # Base de dados carregada!
+1/7/2018-23:13:0 # ../bases/AR_faces/
+1/7/2018-23:13:0 # Instanciando RBF...
+1/7/2018-23:13:0 # Camadas: [100, 100]
+1/7/2018-23:13:0 # taxa de aprendizzagem = 1
+1/7/2018-23:13:0 # numero de epocas = 2004
+1/7/2018-23:13:0 # RBF instanciada!
+1/7/2018-23:13:0 # Dividindo a base em folders
+1/7/2018-23:13:0 # 10 Cross Validation
+1/7/2018-23:13:0 # ----------------------
+1/7/2018-23:13:0 # ----------------------
+1/7/2018-23:13:0 # Fold 0
+1/7/2018-23:13:0 # ----------------------
+1/7/2018-23:13:0 # ----------------------
+1/7/2018-23:13:0 # Separando a base de dados em treino, teste e validação
+1/7/2018-23:13:3 # Base de dados separada!
+1/7/2018-23:13:3 # Calculando LDA...
+1/7/2018-23:13:31 # Projetando base de treino...
+1/7/2018-23:13:31 # Base de treino projetada!
+1/7/2018-23:13:31 # Projetando base de validacao...
+1/7/2018-23:13:31 # Base de validacao projetada!
+1/7/2018-23:13:31 # Projetando base de teste...
+1/7/2018-23:13:32 # Base de teste projetada!
+1/7/2018-23:13:32 # Projeção do LDA finalizada!
+1/7/2018-23:13:32 # Normalizando base de dados...
+1/7/2018-23:13:32 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-23:13:32 # Iniciando treinamento da RBF...
+1/7/2018-23:13:44 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-23:13:58 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-23:34:37 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-23:34:47 # Parou o treinamento na epoca: 101
+1/7/2018-23:34:47 # Treinamento finalizado!
+1/7/2018-23:34:47 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-23:34:49 # Taxa de acerto do fold 0: 1.0
+1/7/2018-23:34:49 # ----------------------
+1/7/2018-23:34:49 # ----------------------
+1/7/2018-23:34:49 # Fold 1
+1/7/2018-23:34:49 # ----------------------
+1/7/2018-23:34:49 # ----------------------
+1/7/2018-23:34:49 # Separando a base de dados em treino, teste e validação
+1/7/2018-23:34:52 # Base de dados separada!
+1/7/2018-23:34:52 # Calculando LDA...
+1/7/2018-23:35:24 # Projetando base de treino...
+1/7/2018-23:35:25 # Base de treino projetada!
+1/7/2018-23:35:25 # Projetando base de validacao...
+1/7/2018-23:35:25 # Base de validacao projetada!
+1/7/2018-23:35:25 # Projetando base de teste...
+1/7/2018-23:35:25 # Base de teste projetada!
+1/7/2018-23:35:25 # Projeção do LDA finalizada!
+1/7/2018-23:35:26 # Normalizando base de dados...
+1/7/2018-23:35:26 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-23:35:26 # Iniciando treinamento da RBF...
+1/7/2018-23:36:5 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-23:36:26 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-23:55:13 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+1/7/2018-23:55:23 # Parou o treinamento na epoca: 101
+1/7/2018-23:55:23 # Treinamento finalizado!
+1/7/2018-23:55:23 # Calculando taxa de acerto no conjunto de teste
+1/7/2018-23:55:25 # Taxa de acerto do fold 1: 1.0
+1/7/2018-23:55:25 # ----------------------
+1/7/2018-23:55:25 # ----------------------
+1/7/2018-23:55:25 # Fold 2
+1/7/2018-23:55:25 # ----------------------
+1/7/2018-23:55:25 # ----------------------
+1/7/2018-23:55:25 # Separando a base de dados em treino, teste e validação
+1/7/2018-23:55:28 # Base de dados separada!
+1/7/2018-23:55:28 # Calculando LDA...
+1/7/2018-23:55:53 # Projetando base de treino...
+1/7/2018-23:55:53 # Base de treino projetada!
+1/7/2018-23:55:53 # Projetando base de validacao...
+1/7/2018-23:55:53 # Base de validacao projetada!
+1/7/2018-23:55:53 # Projetando base de teste...
+1/7/2018-23:55:53 # Base de teste projetada!
+1/7/2018-23:55:53 # Projeção do LDA finalizada!
+1/7/2018-23:55:53 # Normalizando base de dados...
+1/7/2018-23:55:54 # Normalização da base de dados concluida! (treino, teste e validacao)
+1/7/2018-23:55:54 # Iniciando treinamento da RBF...
+1/7/2018-23:56:7 # Taxa de aprendizagem reduzida para :0.1
+1/7/2018-23:56:21 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:12:50 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:12:58 # Parou o treinamento na epoca: 101
+2/7/2018-0:12:58 # Treinamento finalizado!
+2/7/2018-0:12:58 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-0:12:59 # Taxa de acerto do fold 2: 1.0
+2/7/2018-0:12:59 # ----------------------
+2/7/2018-0:12:59 # ----------------------
+2/7/2018-0:12:59 # Fold 3
+2/7/2018-0:12:59 # ----------------------
+2/7/2018-0:12:59 # ----------------------
+2/7/2018-0:12:59 # Separando a base de dados em treino, teste e validação
+2/7/2018-0:13:1 # Base de dados separada!
+2/7/2018-0:13:1 # Calculando LDA...
+2/7/2018-0:13:16 # Projetando base de treino...
+2/7/2018-0:13:16 # Base de treino projetada!
+2/7/2018-0:13:16 # Projetando base de validacao...
+2/7/2018-0:13:16 # Base de validacao projetada!
+2/7/2018-0:13:16 # Projetando base de teste...
+2/7/2018-0:13:16 # Base de teste projetada!
+2/7/2018-0:13:16 # Projeção do LDA finalizada!
+2/7/2018-0:13:16 # Normalizando base de dados...
+2/7/2018-0:13:16 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-0:13:16 # Iniciando treinamento da RBF...
+2/7/2018-0:13:26 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-0:13:37 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:26:54 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:27:2 # Parou o treinamento na epoca: 101
+2/7/2018-0:27:2 # Treinamento finalizado!
+2/7/2018-0:27:2 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-0:27:3 # Taxa de acerto do fold 3: 1.0
+2/7/2018-0:27:3 # ----------------------
+2/7/2018-0:27:3 # ----------------------
+2/7/2018-0:27:3 # Fold 4
+2/7/2018-0:27:3 # ----------------------
+2/7/2018-0:27:3 # ----------------------
+2/7/2018-0:27:3 # Separando a base de dados em treino, teste e validação
+2/7/2018-0:27:6 # Base de dados separada!
+2/7/2018-0:27:6 # Calculando LDA...
+2/7/2018-0:27:20 # Projetando base de treino...
+2/7/2018-0:27:21 # Base de treino projetada!
+2/7/2018-0:27:21 # Projetando base de validacao...
+2/7/2018-0:27:21 # Base de validacao projetada!
+2/7/2018-0:27:21 # Projetando base de teste...
+2/7/2018-0:27:21 # Base de teste projetada!
+2/7/2018-0:27:21 # Projeção do LDA finalizada!
+2/7/2018-0:27:21 # Normalizando base de dados...
+2/7/2018-0:27:22 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-0:27:22 # Iniciando treinamento da RBF...
+2/7/2018-0:27:39 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-0:27:49 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:41:12 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:41:19 # Parou o treinamento na epoca: 101
+2/7/2018-0:41:19 # Treinamento finalizado!
+2/7/2018-0:41:19 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-0:41:20 # Taxa de acerto do fold 4: 1.0
+2/7/2018-0:41:20 # ----------------------
+2/7/2018-0:41:20 # ----------------------
+2/7/2018-0:41:20 # Fold 5
+2/7/2018-0:41:20 # ----------------------
+2/7/2018-0:41:20 # ----------------------
+2/7/2018-0:41:20 # Separando a base de dados em treino, teste e validação
+2/7/2018-0:41:24 # Base de dados separada!
+2/7/2018-0:41:24 # Calculando LDA...
+2/7/2018-0:41:39 # Projetando base de treino...
+2/7/2018-0:41:39 # Base de treino projetada!
+2/7/2018-0:41:39 # Projetando base de validacao...
+2/7/2018-0:41:39 # Base de validacao projetada!
+2/7/2018-0:41:39 # Projetando base de teste...
+2/7/2018-0:41:39 # Base de teste projetada!
+2/7/2018-0:41:39 # Projeção do LDA finalizada!
+2/7/2018-0:41:39 # Normalizando base de dados...
+2/7/2018-0:41:40 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-0:41:40 # Iniciando treinamento da RBF...
+2/7/2018-0:41:50 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-0:42:1 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:56:9 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-0:56:18 # Parou o treinamento na epoca: 101
+2/7/2018-0:56:18 # Treinamento finalizado!
+2/7/2018-0:56:18 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-0:56:19 # Taxa de acerto do fold 5: 1.0
+2/7/2018-0:56:19 # ----------------------
+2/7/2018-0:56:19 # ----------------------
+2/7/2018-0:56:19 # Fold 6
+2/7/2018-0:56:19 # ----------------------
+2/7/2018-0:56:19 # ----------------------
+2/7/2018-0:56:19 # Separando a base de dados em treino, teste e validação
+2/7/2018-0:56:22 # Base de dados separada!
+2/7/2018-0:56:22 # Calculando LDA...
+2/7/2018-0:56:42 # Projetando base de treino...
+2/7/2018-0:56:43 # Base de treino projetada!
+2/7/2018-0:56:43 # Projetando base de validacao...
+2/7/2018-0:56:43 # Base de validacao projetada!
+2/7/2018-0:56:43 # Projetando base de teste...
+2/7/2018-0:56:43 # Base de teste projetada!
+2/7/2018-0:56:43 # Projeção do LDA finalizada!
+2/7/2018-0:56:43 # Normalizando base de dados...
+2/7/2018-0:56:43 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-0:56:43 # Iniciando treinamento da RBF...
+2/7/2018-0:56:56 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-0:57:6 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:10:11 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:10:19 # Parou o treinamento na epoca: 101
+2/7/2018-1:10:19 # Treinamento finalizado!
+2/7/2018-1:10:19 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-1:10:20 # Taxa de acerto do fold 6: 1.0
+2/7/2018-1:10:20 # ----------------------
+2/7/2018-1:10:20 # ----------------------
+2/7/2018-1:10:20 # Fold 7
+2/7/2018-1:10:20 # ----------------------
+2/7/2018-1:10:20 # ----------------------
+2/7/2018-1:10:20 # Separando a base de dados em treino, teste e validação
+2/7/2018-1:10:22 # Base de dados separada!
+2/7/2018-1:10:22 # Calculando LDA...
+2/7/2018-1:10:41 # Projetando base de treino...
+2/7/2018-1:10:41 # Base de treino projetada!
+2/7/2018-1:10:41 # Projetando base de validacao...
+2/7/2018-1:10:41 # Base de validacao projetada!
+2/7/2018-1:10:41 # Projetando base de teste...
+2/7/2018-1:10:41 # Base de teste projetada!
+2/7/2018-1:10:41 # Projeção do LDA finalizada!
+2/7/2018-1:10:41 # Normalizando base de dados...
+2/7/2018-1:10:41 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-1:10:41 # Iniciando treinamento da RBF...
+2/7/2018-1:10:53 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-1:11:2 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:25:13 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:25:21 # Parou o treinamento na epoca: 101
+2/7/2018-1:25:21 # Treinamento finalizado!
+2/7/2018-1:25:21 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-1:25:22 # Taxa de acerto do fold 7: 1.0
+2/7/2018-1:25:22 # ----------------------
+2/7/2018-1:25:22 # ----------------------
+2/7/2018-1:25:22 # Fold 8
+2/7/2018-1:25:22 # ----------------------
+2/7/2018-1:25:22 # ----------------------
+2/7/2018-1:25:22 # Separando a base de dados em treino, teste e validação
+2/7/2018-1:25:24 # Base de dados separada!
+2/7/2018-1:25:25 # Calculando LDA...
+2/7/2018-1:26:1 # Projetando base de treino...
+2/7/2018-1:26:1 # Base de treino projetada!
+2/7/2018-1:26:1 # Projetando base de validacao...
+2/7/2018-1:26:1 # Base de validacao projetada!
+2/7/2018-1:26:1 # Projetando base de teste...
+2/7/2018-1:26:1 # Base de teste projetada!
+2/7/2018-1:26:1 # Projeção do LDA finalizada!
+2/7/2018-1:26:1 # Normalizando base de dados...
+2/7/2018-1:26:1 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-1:26:1 # Iniciando treinamento da RBF...
+2/7/2018-1:26:12 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-1:26:24 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:39:58 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:40:7 # Parou o treinamento na epoca: 101
+2/7/2018-1:40:7 # Treinamento finalizado!
+2/7/2018-1:40:7 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-1:40:8 # Taxa de acerto do fold 8: 1.0
+2/7/2018-1:40:8 # ----------------------
+2/7/2018-1:40:8 # ----------------------
+2/7/2018-1:40:8 # Fold 9
+2/7/2018-1:40:8 # ----------------------
+2/7/2018-1:40:8 # ----------------------
+2/7/2018-1:40:8 # Separando a base de dados em treino, teste e validação
+2/7/2018-1:40:10 # Base de dados separada!
+2/7/2018-1:40:10 # Calculando LDA...
+2/7/2018-1:40:27 # Projetando base de treino...
+2/7/2018-1:40:27 # Base de treino projetada!
+2/7/2018-1:40:27 # Projetando base de validacao...
+2/7/2018-1:40:27 # Base de validacao projetada!
+2/7/2018-1:40:27 # Projetando base de teste...
+2/7/2018-1:40:28 # Base de teste projetada!
+2/7/2018-1:40:28 # Projeção do LDA finalizada!
+2/7/2018-1:40:28 # Normalizando base de dados...
+2/7/2018-1:40:28 # Normalização da base de dados concluida! (treino, teste e validacao)
+2/7/2018-1:40:28 # Iniciando treinamento da RBF...
+2/7/2018-1:40:39 # Taxa de aprendizagem reduzida para :0.1
+2/7/2018-1:40:50 # Epoca: 0   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:54:0 # Epoca: 100   -   Acerto no treino: 1.0   -   Acerto na validação: 1.0
+2/7/2018-1:54:8 # Parou o treinamento na epoca: 101
+2/7/2018-1:54:8 # Treinamento finalizado!
+2/7/2018-1:54:8 # Calculando taxa de acerto no conjunto de teste
+2/7/2018-1:54:9 # Taxa de acerto do fold 9: 1.0
+2/7/2018-1:54:9 # Taxa de acerto do Experimento: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2/7/2018-1:54:9 # Media da taxa de acerto: 1.0
+2/7/2018-1:54:9 # Desvio Padrão: 0.0
