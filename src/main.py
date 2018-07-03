@@ -14,7 +14,7 @@ parser = Parser()
 def separa_treino_teste(folders, i):
     parser.print("Separando a base de dados em treino, teste e validação")
     indice_1 = (i + 1) % len(folders)
-    indice_2 = (i + 2) % len(folders)
+    indice_2 = (i + 1) % len(folders)
     indice_validacao = [indice_1, indice_2]
     treino, teste, validacao, label_treino, label_teste, label_validacao = cross.separa_treino_teste(folders, i,
                                                                                                      indice_validacao)
@@ -75,7 +75,7 @@ def projeta_lda(treino, validacao, teste, label_treino):
 
 # carrega base de dados
 parser.print("Carregando base de dados...")
-path = '../bases/CroppedYale_faces/'
+path = '../bases/ORL_faces/'
 parser.print(path)
 base, labels, labels_nome, labels_binario = parser.get_base(path)
 parser.print("Base de dados carregada!")
@@ -96,7 +96,7 @@ parser.print("RBF instanciada!")
 
 # ----- Separa base de dados em folders
 parser.print("Dividindo a base em folders")
-num_folds = 10
+num_folds = 5
 parser.print(str(num_folds) + " Cross Validation")
 cross = CrossFoldValidation(base, labels, num_folds)
 folders = cross.gerar_folders([])
@@ -120,7 +120,7 @@ for i in range(num_folds):
     # ----
 
     # --- projetando base com eigenfaces
-    treino_eig, validacao_eig, teste_eig = projeta_eigenfaces(treino, validacao, teste, 0.1)
+    treino_eig, validacao_eig, teste_eig = projeta_eigenfaces(treino, validacao, teste, 1)
     #  ---
 
     # --- projetando lda

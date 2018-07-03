@@ -4,7 +4,7 @@
 		- a unica base que precisou do viola jones foi a faces95
 	- foi normalizada após a aplicação do PCA|LDA
 	    - todos os conjuntos (treino, teste e validação) foram normalizados usando máximos e minimos da base de treinamento
-    - 10-fold cross validation
+    - 10-fold cross validation | Experimento 2: 5-fold, 3-treino, 1-validacao, 1-teste
     - georgia e faces95 cotem imagens de temanho diferente
 
 
