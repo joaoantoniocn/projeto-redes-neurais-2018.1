@@ -62,7 +62,7 @@ class RBF:
                 self.erro = labels_treino[i] - self.predict(treino[i])
 
                 # se classificou errado atualiza os pesos
-                if( np.sum(self.erro) != 0):
+                if( np.sum(abs(self.erro)) != 0):
                     self.atualiza_pesos()
                     atualizou_epoca = 1
 
@@ -95,7 +95,8 @@ class RBF:
 
         for i in range(len(base)):
             erro = labels_binario[i] - self.predict(base[i])
-            result = result + np.power(np.sum(erro), 2)
+            erro_2 = np.power(erro, 2)
+            result = result + np.sum(erro_2)
 
         self.sse = result
         return result
@@ -104,7 +105,8 @@ class RBF:
         taxa_acerto = 0
 
         for i in range(len(base)):
-            if(np.sum(labels_binario[i] - self.predict(base[i])) == 0):
+            erro = labels_binario[i] - self.predict(base[i])
+            if(np.sum(abs(erro)) == 0):
                 taxa_acerto = taxa_acerto + 1
 
         taxa_acerto = taxa_acerto / len(base)
