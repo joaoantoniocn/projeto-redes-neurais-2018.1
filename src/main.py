@@ -75,7 +75,7 @@ def projeta_lda(treino, validacao, teste, label_treino):
 
 # carrega base de dados
 parser.print("Carregando base de dados...")
-path = '../bases/ORL_faces/'
+path = '../bases/AR_faces/'
 parser.print(path)
 base, labels, labels_nome, labels_binario = parser.get_base(path)
 parser.print("Base de dados carregada!")
@@ -120,15 +120,15 @@ for i in range(num_folds):
     # ----
 
     # --- projetando base com eigenfaces
-    treino_eig, validacao_eig, teste_eig = projeta_eigenfaces(treino, validacao, teste, 1)
+    #treino_eig, validacao_eig, teste_eig = projeta_eigenfaces(treino, validacao, teste, 0.1)
     #  ---
 
     # --- projetando lda
-    #treino_lda, validacao_lda, teste_lda = projeta_lda(treino, validacao, teste, label_treino)
+    treino_lda, validacao_lda, teste_lda = projeta_lda(treino, validacao, teste, label_treino)
 
     # --- normalizando base de dados
     parser.print("Normalizando base de dados...")
-    treino_norm, teste_norm, validacao_norm = parser.normaliza(treino_eig, teste_eig, validacao_eig)
+    treino_norm, teste_norm, validacao_norm = parser.normaliza(treino_lda, teste_lda, validacao_lda)
     parser.print("Normalização da base de dados concluida! (treino, teste e validacao)")
 
     # --- Treina rede
