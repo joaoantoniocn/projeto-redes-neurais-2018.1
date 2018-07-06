@@ -1,0 +1,32 @@
+5/7/2018-22:41:15 # Instanciando RBF...
+5/7/2018-22:41:15 # Camadas: [8, 3]
+5/7/2018-22:41:15 # taxa de aprendizzagem = 1
+5/7/2018-22:41:15 # numero de epocas = 2004
+5/7/2018-22:41:15 # RBF instanciada!
+5/7/2018-22:41:15 # Iniciando treinamento da RBF...
+5/7/2018-22:41:15 # Taxa de aprendizagem reduzida para :0.1
+5/7/2018-22:41:15 # Epoca: 0   -   Acerto no treino: 0.6267   -   Acerto na validação: 0.6267
+5/7/2018-22:41:17 # Epoca: 100   -   Acerto no treino: 0.6667   -   Acerto na validação: 0.6667
+5/7/2018-22:41:19 # Epoca: 200   -   Acerto no treino: 0.6667   -   Acerto na validação: 0.6667
+5/7/2018-22:41:21 # Epoca: 300   -   Acerto no treino: 0.6533   -   Acerto na validação: 0.6533
+5/7/2018-22:41:23 # Epoca: 400   -   Acerto no treino: 0.74   -   Acerto na validação: 0.74
+5/7/2018-22:41:25 # Epoca: 500   -   Acerto no treino: 0.6667   -   Acerto na validação: 0.6667
+5/7/2018-22:41:25 # Taxa de aprendizagem reduzida para :0.01
+5/7/2018-22:41:27 # Epoca: 600   -   Acerto no treino: 0.98   -   Acerto na validação: 0.98
+5/7/2018-22:41:29 # Epoca: 700   -   Acerto no treino: 0.9733   -   Acerto na validação: 0.9733
+5/7/2018-22:41:31 # Epoca: 800   -   Acerto no treino: 0.98   -   Acerto na validação: 0.98
+5/7/2018-22:41:34 # Epoca: 900   -   Acerto no treino: 0.9733   -   Acerto na validação: 0.9733
+5/7/2018-22:41:36 # Epoca: 1000   -   Acerto no treino: 0.98   -   Acerto na validação: 0.98
+5/7/2018-22:41:36 # Taxa de aprendizagem reduzida para :0.001
+5/7/2018-22:41:39 # Epoca: 1100   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:41 # Epoca: 1200   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:43 # Epoca: 1300   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:46 # Epoca: 1400   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:48 # Epoca: 1500   -   Acerto no treino: 0.96   -   Acerto na validação: 0.96
+5/7/2018-22:41:48 # Taxa de aprendizagem reduzida para :0.0001
+5/7/2018-22:41:51 # Epoca: 1600   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:53 # Epoca: 1700   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:55 # Epoca: 1800   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:41:57 # Epoca: 1900   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:42:0 # Epoca: 2000   -   Acerto no treino: 0.9667   -   Acerto na validação: 0.9667
+5/7/2018-22:42:0 # Treinamento finalizado!
