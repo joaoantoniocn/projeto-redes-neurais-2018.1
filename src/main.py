@@ -73,6 +73,10 @@ def projeta_lda(treino, validacao, teste, label_treino):
 #parser.base2face('../bases/faces95/', '../bases/faces95_faces/')
 # --------
 
+data = load_iris()
+base = data.data
+labels = parser.binariza2(data.target)
+
 # carrega base de dados
 parser.print("Carregando base de dados...")
 path = '../bases/AR_faces/'
@@ -147,7 +151,6 @@ parser.print("Taxa de acerto do Experimento: " + str(taxa_acerto_folds))
 parser.print("Media da taxa de acerto: " + str(np.mean(taxa_acerto_folds)))
 parser.print("Desvio Padrão: " + str(np.std(taxa_acerto_folds)))
 
-#base_lda = parser.lda(base, labels)
 
 
 parser.close_log()
